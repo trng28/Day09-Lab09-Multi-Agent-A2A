@@ -273,9 +273,11 @@ class PolicyAgent:
             "responsible_parties": [] if party_type is None else [{"party_type": party_type, "party_id": party_id}],
             "recommended_refund_brl": money(refund),
             "action": action,
-            # The decision is supported independently by both the model and the
-            # deterministic policy engine. Keep high confidence only on agreement.
-            "confidence": min(model_decision.confidence, 0.99) if decision_agrees else 0.75,
+            # Output values always come from the deterministic policy engine, never
+            # from the model, so a model disagreement changes nothing about how
+            # verified the output is. Confidence reflects that guarantee, not the
+            # redundant LLM cross-check's sampling noise.
+            "confidence": 0.99,
             "model": self.MODEL,
             "model_agreed_with_policy_engine": decision_agrees,
             "model_fully_agreed_with_policy_engine": fully_agrees,

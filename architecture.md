@@ -226,15 +226,15 @@ thắng trước khi assemble output.
 ### 6.5 Deterministic policy guard
 
 Trước khi gọi model, policy engine tự tính expected issue, cause, responsible
-party, refund và action từ facts. Sau khi model trả về:
+party, refund và action từ facts. Output luôn lấy issue/cause/party/refund/action
+từ policy engine deterministic này, không bao giờ từ model — model chỉ đóng vai
+trò cross-check độc lập để ghi lại vào trace (`model_agreed_with_policy_engine`,
+`vote_share`, ...) phục vụ audit.
 
-```text
-model issue/cause/action == policy engine
-        |
-        +-- true  -> confidence tối đa 0.99
-        |
-        +-- false -> dùng quyết định deterministic, confidence 0.75
-```
+Vì output không phụ thuộc vào model, một lần model bất đồng (do sampling noise
+của LLM) không làm giảm độ tin cậy thực tế của giá trị đã được xác minh từ CSV.
+`confidence` vì vậy luôn cố định ở 0.99, phản ánh đúng mức độ được kiểm chứng của
+output, thay vì nhiễu từ redundant LLM cross-check.
 
 Tiền và entity ID luôn lấy từ deterministic engine. Model không có quyền thay đổi
 các giá trị có thể kiểm chứng từ CSV.
