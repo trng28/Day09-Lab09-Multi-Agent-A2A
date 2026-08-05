@@ -1,0 +1,7 @@
+{
+  "model": "gpt-4o-mini",
+  "parameter_size": "not published by provider",
+  "framework": "LangGraph + LangChain OpenAI",
+  "runtime": "Python 3.11+",
+  "policy_version": "EC_POLICY_V1"
+}
