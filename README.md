@@ -1,5 +1,7 @@
 # K3 Day 09 - Multi-Agent E-commerce Dispute Resolution
 
+![Multi-Agent A2A Architecture](assets/overview.png)
+
 ## 1. Bài toán
 
 Xây dựng một hệ thống multi-agent để điều tra 50 yêu cầu hỗ trợ của khách hàng trên dữ liệu Olist. Với mỗi case, hệ thống phải đối chiếu nhiều nguồn dữ liệu, xác định vấn đề, bên chịu trách nhiệm, bằng chứng, khoản hoàn đề xuất và hành động xử lý.
