@@ -208,12 +208,20 @@ Policy Agent dùng model cố định:
 
 ```text
 gpt-4o-mini
-temperature = 0
+temperature = 0.2
 structured output = PolicyDecision
+vote runs = 10
+parallel workers = 5
 ```
 
 `PolicyDecision` giới hạn issue, root cause và action bằng enum/Literal. Prompt
 cấm model tạo evidence, ID, timestamp hoặc giá trị tiền không có trong facts.
+
+Mỗi case được model phân tích độc lập 10 lần. Các structured decision được chuẩn
+hóa thành signature gồm issue, cause, action, party và refund, sau đó chọn majority
+vote. Nếu nhiều phương án bằng phiếu, signature đồng thuận với deterministic
+policy engine được dùng làm tie-breaker. Policy guard tiếp tục kiểm tra phương án
+thắng trước khi assemble output.
 
 ### 6.5 Deterministic policy guard
 
@@ -271,9 +279,18 @@ Mỗi agent tạo một event trong `trace.jsonl`:
   "status": "completed",
   "duration_ms": 842.35,
   "model": "gpt-4o-mini",
-  "model_agreed_with_policy_engine": true
+  "model_agreed_with_policy_engine": true,
+  "model_fully_agreed_with_policy_engine": true,
+  "vote_runs": 10,
+  "winning_votes": 9,
+  "vote_share": 0.9,
+  "vote_distribution": []
 }
 ```
+
+`model_agreed_with_policy_engine` kiểm tra issue/cause/action. Trường `full`
+kiểm tra thêm party và refund. Dù full agreement là false, các giá trị tiền và ID
+vẫn lấy từ deterministic engine và phải qua Verifier Agent.
 
 Một batch hợp lệ có 250 events: năm agent events cho mỗi một trong 50 case.
 `trace.jsonl` luôn bị ghi đè ở lượt chạy mới, không append trace cũ.

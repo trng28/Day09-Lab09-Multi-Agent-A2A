@@ -22,7 +22,7 @@
     "valid": true,
     "workflow_completion_rate": 1.0,
     "event_count": 250,
-    "average_case_latency_ms": 1570.097,
+    "average_case_latency_ms": 4242.068,
     "errors": []
   },
   "cases": [

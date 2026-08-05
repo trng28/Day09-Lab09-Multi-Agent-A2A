@@ -1,250 +1,250 @@
-{"case_id": "EC_001", "step": "OrderAgent", "task_id": "EC_001-order-be749ee3", "status": "completed", "duration_ms": 0.051}
-{"case_id": "EC_001", "step": "PaymentAgent", "task_id": "EC_001-payment-6ca425a4", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_001", "step": "DeliveryAgent", "task_id": "EC_001-delivery-5c9b7a83", "status": "completed", "duration_ms": 0.018}
-{"case_id": "EC_001", "step": "PolicyAgent", "task_id": "EC_001-policy-6d80bf47", "status": "completed", "duration_ms": 2694.48, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_001", "step": "VerifierAgent", "task_id": "EC_001-verifier-71606959", "status": "completed", "duration_ms": 0.014}
-{"case_id": "EC_002", "step": "OrderAgent", "task_id": "EC_002-order-618fbefc", "status": "completed", "duration_ms": 0.048}
-{"case_id": "EC_002", "step": "PaymentAgent", "task_id": "EC_002-payment-cd2145ef", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_002", "step": "DeliveryAgent", "task_id": "EC_002-delivery-5ca42410", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_002", "step": "PolicyAgent", "task_id": "EC_002-policy-5f296298", "status": "completed", "duration_ms": 1169.677, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_002", "step": "VerifierAgent", "task_id": "EC_002-verifier-65156f07", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_003", "step": "OrderAgent", "task_id": "EC_003-order-ecd22072", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_003", "step": "PaymentAgent", "task_id": "EC_003-payment-f75eb98a", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_003", "step": "DeliveryAgent", "task_id": "EC_003-delivery-efb97fa5", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_003", "step": "PolicyAgent", "task_id": "EC_003-policy-b44ea2b2", "status": "completed", "duration_ms": 1348.974, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_003", "step": "VerifierAgent", "task_id": "EC_003-verifier-0839d9c0", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_004", "step": "OrderAgent", "task_id": "EC_004-order-fe652600", "status": "completed", "duration_ms": 0.071}
-{"case_id": "EC_004", "step": "PaymentAgent", "task_id": "EC_004-payment-38ff4b89", "status": "completed", "duration_ms": 0.048}
-{"case_id": "EC_004", "step": "DeliveryAgent", "task_id": "EC_004-delivery-a13b3c43", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_004", "step": "PolicyAgent", "task_id": "EC_004-policy-df41e544", "status": "completed", "duration_ms": 1092.45, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_004", "step": "VerifierAgent", "task_id": "EC_004-verifier-76c5e57c", "status": "completed", "duration_ms": 0.028}
-{"case_id": "EC_005", "step": "OrderAgent", "task_id": "EC_005-order-69b8def2", "status": "completed", "duration_ms": 0.058}
-{"case_id": "EC_005", "step": "PaymentAgent", "task_id": "EC_005-payment-3010412d", "status": "completed", "duration_ms": 0.047}
-{"case_id": "EC_005", "step": "DeliveryAgent", "task_id": "EC_005-delivery-4818a640", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_005", "step": "PolicyAgent", "task_id": "EC_005-policy-7d9fa603", "status": "completed", "duration_ms": 1359.16, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_005", "step": "VerifierAgent", "task_id": "EC_005-verifier-833f25f2", "status": "completed", "duration_ms": 0.028}
-{"case_id": "EC_006", "step": "OrderAgent", "task_id": "EC_006-order-38c2cdcc", "status": "completed", "duration_ms": 0.073}
-{"case_id": "EC_006", "step": "PaymentAgent", "task_id": "EC_006-payment-c6dc138b", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_006", "step": "DeliveryAgent", "task_id": "EC_006-delivery-9ba131d6", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_006", "step": "PolicyAgent", "task_id": "EC_006-policy-f0f60a8b", "status": "completed", "duration_ms": 1196.891, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_006", "step": "VerifierAgent", "task_id": "EC_006-verifier-6deb8322", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_007", "step": "OrderAgent", "task_id": "EC_007-order-86a71d7a", "status": "completed", "duration_ms": 0.08}
-{"case_id": "EC_007", "step": "PaymentAgent", "task_id": "EC_007-payment-96d5152e", "status": "completed", "duration_ms": 0.051}
-{"case_id": "EC_007", "step": "DeliveryAgent", "task_id": "EC_007-delivery-00d716d9", "status": "completed", "duration_ms": 0.027}
-{"case_id": "EC_007", "step": "PolicyAgent", "task_id": "EC_007-policy-795f7afe", "status": "completed", "duration_ms": 1228.445, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_007", "step": "VerifierAgent", "task_id": "EC_007-verifier-3069abba", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_008", "step": "OrderAgent", "task_id": "EC_008-order-ad17cdc8", "status": "completed", "duration_ms": 0.063}
-{"case_id": "EC_008", "step": "PaymentAgent", "task_id": "EC_008-payment-880b9ebc", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_008", "step": "DeliveryAgent", "task_id": "EC_008-delivery-a25b351c", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_008", "step": "PolicyAgent", "task_id": "EC_008-policy-54fc2db6", "status": "completed", "duration_ms": 2590.401, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_008", "step": "VerifierAgent", "task_id": "EC_008-verifier-218459b8", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_009", "step": "OrderAgent", "task_id": "EC_009-order-20d4a316", "status": "completed", "duration_ms": 0.078}
-{"case_id": "EC_009", "step": "PaymentAgent", "task_id": "EC_009-payment-e60a2d44", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_009", "step": "DeliveryAgent", "task_id": "EC_009-delivery-030ad5c9", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_009", "step": "PolicyAgent", "task_id": "EC_009-policy-cee3cfa7", "status": "completed", "duration_ms": 1379.109, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_009", "step": "VerifierAgent", "task_id": "EC_009-verifier-e50a2b62", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_010", "step": "OrderAgent", "task_id": "EC_010-order-4bf10bad", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_010", "step": "PaymentAgent", "task_id": "EC_010-payment-8b4316c3", "status": "completed", "duration_ms": 0.018}
-{"case_id": "EC_010", "step": "DeliveryAgent", "task_id": "EC_010-delivery-6e289671", "status": "completed", "duration_ms": 0.014}
-{"case_id": "EC_010", "step": "PolicyAgent", "task_id": "EC_010-policy-489796e7", "status": "completed", "duration_ms": 1449.27, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_010", "step": "VerifierAgent", "task_id": "EC_010-verifier-05888493", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_011", "step": "OrderAgent", "task_id": "EC_011-order-1398cb26", "status": "completed", "duration_ms": 0.056}
-{"case_id": "EC_011", "step": "PaymentAgent", "task_id": "EC_011-payment-bcd85728", "status": "completed", "duration_ms": 0.035}
-{"case_id": "EC_011", "step": "DeliveryAgent", "task_id": "EC_011-delivery-90044389", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_011", "step": "PolicyAgent", "task_id": "EC_011-policy-dfb32f5d", "status": "completed", "duration_ms": 1312.183, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_011", "step": "VerifierAgent", "task_id": "EC_011-verifier-34e0d722", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_012", "step": "OrderAgent", "task_id": "EC_012-order-6efa61f0", "status": "completed", "duration_ms": 0.182}
-{"case_id": "EC_012", "step": "PaymentAgent", "task_id": "EC_012-payment-989990f6", "status": "completed", "duration_ms": 0.092}
-{"case_id": "EC_012", "step": "DeliveryAgent", "task_id": "EC_012-delivery-3766a1a4", "status": "completed", "duration_ms": 0.07}
-{"case_id": "EC_012", "step": "PolicyAgent", "task_id": "EC_012-policy-193d20ca", "status": "completed", "duration_ms": 1298.793, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_012", "step": "VerifierAgent", "task_id": "EC_012-verifier-494e4b18", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_013", "step": "OrderAgent", "task_id": "EC_013-order-4d07f145", "status": "completed", "duration_ms": 0.106}
-{"case_id": "EC_013", "step": "PaymentAgent", "task_id": "EC_013-payment-de692f43", "status": "completed", "duration_ms": 0.083}
-{"case_id": "EC_013", "step": "DeliveryAgent", "task_id": "EC_013-delivery-83acfa49", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_013", "step": "PolicyAgent", "task_id": "EC_013-policy-c2a90a0f", "status": "completed", "duration_ms": 1262.166, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_013", "step": "VerifierAgent", "task_id": "EC_013-verifier-a0ec5a83", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_014", "step": "OrderAgent", "task_id": "EC_014-order-1b0aae3b", "status": "completed", "duration_ms": 0.172}
-{"case_id": "EC_014", "step": "PaymentAgent", "task_id": "EC_014-payment-5169116b", "status": "completed", "duration_ms": 0.103}
-{"case_id": "EC_014", "step": "DeliveryAgent", "task_id": "EC_014-delivery-30f988cf", "status": "completed", "duration_ms": 0.056}
-{"case_id": "EC_014", "step": "PolicyAgent", "task_id": "EC_014-policy-01b487d6", "status": "completed", "duration_ms": 1235.314, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_014", "step": "VerifierAgent", "task_id": "EC_014-verifier-3ade70f9", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_015", "step": "OrderAgent", "task_id": "EC_015-order-a4ea06b1", "status": "completed", "duration_ms": 0.054}
-{"case_id": "EC_015", "step": "PaymentAgent", "task_id": "EC_015-payment-554d1a52", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_015", "step": "DeliveryAgent", "task_id": "EC_015-delivery-b875dec8", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_015", "step": "PolicyAgent", "task_id": "EC_015-policy-1bf19f38", "status": "completed", "duration_ms": 1224.859, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_015", "step": "VerifierAgent", "task_id": "EC_015-verifier-17e57b69", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_016", "step": "OrderAgent", "task_id": "EC_016-order-c10b2ea8", "status": "completed", "duration_ms": 0.132}
-{"case_id": "EC_016", "step": "PaymentAgent", "task_id": "EC_016-payment-46bf5a97", "status": "completed", "duration_ms": 0.095}
-{"case_id": "EC_016", "step": "DeliveryAgent", "task_id": "EC_016-delivery-fc99b690", "status": "completed", "duration_ms": 0.047}
-{"case_id": "EC_016", "step": "PolicyAgent", "task_id": "EC_016-policy-fcf9cdb5", "status": "completed", "duration_ms": 1178.906, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_016", "step": "VerifierAgent", "task_id": "EC_016-verifier-3dfba28d", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_017", "step": "OrderAgent", "task_id": "EC_017-order-7596d926", "status": "completed", "duration_ms": 0.178}
-{"case_id": "EC_017", "step": "PaymentAgent", "task_id": "EC_017-payment-16990b32", "status": "completed", "duration_ms": 0.116}
-{"case_id": "EC_017", "step": "DeliveryAgent", "task_id": "EC_017-delivery-5cc2881f", "status": "completed", "duration_ms": 0.069}
-{"case_id": "EC_017", "step": "PolicyAgent", "task_id": "EC_017-policy-dc48761f", "status": "completed", "duration_ms": 1316.553, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_017", "step": "VerifierAgent", "task_id": "EC_017-verifier-1b4a9c25", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_018", "step": "OrderAgent", "task_id": "EC_018-order-114d1724", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_018", "step": "PaymentAgent", "task_id": "EC_018-payment-0bb05320", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_018", "step": "DeliveryAgent", "task_id": "EC_018-delivery-9a798d5f", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_018", "step": "PolicyAgent", "task_id": "EC_018-policy-5d92be0c", "status": "completed", "duration_ms": 1171.81, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_018", "step": "VerifierAgent", "task_id": "EC_018-verifier-1c926585", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_019", "step": "OrderAgent", "task_id": "EC_019-order-222e3f64", "status": "completed", "duration_ms": 0.106}
-{"case_id": "EC_019", "step": "PaymentAgent", "task_id": "EC_019-payment-c2ffc66b", "status": "completed", "duration_ms": 0.084}
-{"case_id": "EC_019", "step": "DeliveryAgent", "task_id": "EC_019-delivery-e5eee4ac", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_019", "step": "PolicyAgent", "task_id": "EC_019-policy-96708fed", "status": "completed", "duration_ms": 1581.289, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_019", "step": "VerifierAgent", "task_id": "EC_019-verifier-28beb73a", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_020", "step": "OrderAgent", "task_id": "EC_020-order-34a2bc12", "status": "completed", "duration_ms": 0.138}
-{"case_id": "EC_020", "step": "PaymentAgent", "task_id": "EC_020-payment-3df72e77", "status": "completed", "duration_ms": 0.096}
-{"case_id": "EC_020", "step": "DeliveryAgent", "task_id": "EC_020-delivery-98027558", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_020", "step": "PolicyAgent", "task_id": "EC_020-policy-2683bcfe", "status": "completed", "duration_ms": 1378.218, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_020", "step": "VerifierAgent", "task_id": "EC_020-verifier-529a9735", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_021", "step": "OrderAgent", "task_id": "EC_021-order-bea31bed", "status": "completed", "duration_ms": 0.144}
-{"case_id": "EC_021", "step": "PaymentAgent", "task_id": "EC_021-payment-6de7a6e8", "status": "completed", "duration_ms": 0.084}
-{"case_id": "EC_021", "step": "DeliveryAgent", "task_id": "EC_021-delivery-be02b405", "status": "completed", "duration_ms": 0.043}
-{"case_id": "EC_021", "step": "PolicyAgent", "task_id": "EC_021-policy-e2a4d741", "status": "completed", "duration_ms": 1432.013, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_021", "step": "VerifierAgent", "task_id": "EC_021-verifier-88d44d29", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_022", "step": "OrderAgent", "task_id": "EC_022-order-928fbde9", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_022", "step": "PaymentAgent", "task_id": "EC_022-payment-1ccb961c", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_022", "step": "DeliveryAgent", "task_id": "EC_022-delivery-56ba1ad2", "status": "completed", "duration_ms": 0.014}
-{"case_id": "EC_022", "step": "PolicyAgent", "task_id": "EC_022-policy-d72ec471", "status": "completed", "duration_ms": 2018.005, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_022", "step": "VerifierAgent", "task_id": "EC_022-verifier-3566a4b5", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_023", "step": "OrderAgent", "task_id": "EC_023-order-371d85b5", "status": "completed", "duration_ms": 0.051}
-{"case_id": "EC_023", "step": "PaymentAgent", "task_id": "EC_023-payment-46f2641f", "status": "completed", "duration_ms": 0.032}
-{"case_id": "EC_023", "step": "DeliveryAgent", "task_id": "EC_023-delivery-b41ff66a", "status": "completed", "duration_ms": 0.018}
-{"case_id": "EC_023", "step": "PolicyAgent", "task_id": "EC_023-policy-b0fb8ab3", "status": "completed", "duration_ms": 1483.987, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_023", "step": "VerifierAgent", "task_id": "EC_023-verifier-4add4d42", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_024", "step": "OrderAgent", "task_id": "EC_024-order-5c144f9c", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_024", "step": "PaymentAgent", "task_id": "EC_024-payment-3b97e8bc", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_024", "step": "DeliveryAgent", "task_id": "EC_024-delivery-6b7e5d20", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_024", "step": "PolicyAgent", "task_id": "EC_024-policy-c6217286", "status": "completed", "duration_ms": 1372.037, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_024", "step": "VerifierAgent", "task_id": "EC_024-verifier-5fae4bb1", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_025", "step": "OrderAgent", "task_id": "EC_025-order-5cc5420b", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_025", "step": "PaymentAgent", "task_id": "EC_025-payment-e2b454cf", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_025", "step": "DeliveryAgent", "task_id": "EC_025-delivery-4e69181e", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_025", "step": "PolicyAgent", "task_id": "EC_025-policy-2ae285bb", "status": "completed", "duration_ms": 1256.194, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_025", "step": "VerifierAgent", "task_id": "EC_025-verifier-a2fb44da", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_026", "step": "OrderAgent", "task_id": "EC_026-order-3c673dc7", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_026", "step": "PaymentAgent", "task_id": "EC_026-payment-1acff471", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_026", "step": "DeliveryAgent", "task_id": "EC_026-delivery-a9ca2e30", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_026", "step": "PolicyAgent", "task_id": "EC_026-policy-7dcb46ef", "status": "completed", "duration_ms": 1261.642, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_026", "step": "VerifierAgent", "task_id": "EC_026-verifier-686e3878", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_027", "step": "OrderAgent", "task_id": "EC_027-order-06b498f6", "status": "completed", "duration_ms": 0.043}
-{"case_id": "EC_027", "step": "PaymentAgent", "task_id": "EC_027-payment-b2e98883", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_027", "step": "DeliveryAgent", "task_id": "EC_027-delivery-046b5a85", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_027", "step": "PolicyAgent", "task_id": "EC_027-policy-cf500088", "status": "completed", "duration_ms": 1815.714, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_027", "step": "VerifierAgent", "task_id": "EC_027-verifier-5798f3f9", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_028", "step": "OrderAgent", "task_id": "EC_028-order-2331aa48", "status": "completed", "duration_ms": 0.092}
-{"case_id": "EC_028", "step": "PaymentAgent", "task_id": "EC_028-payment-053b70ab", "status": "completed", "duration_ms": 0.082}
-{"case_id": "EC_028", "step": "DeliveryAgent", "task_id": "EC_028-delivery-e81fc882", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_028", "step": "PolicyAgent", "task_id": "EC_028-policy-689be4cd", "status": "completed", "duration_ms": 1275.964, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_028", "step": "VerifierAgent", "task_id": "EC_028-verifier-c0de1442", "status": "completed", "duration_ms": 0.029}
-{"case_id": "EC_029", "step": "OrderAgent", "task_id": "EC_029-order-3026e9de", "status": "completed", "duration_ms": 0.087}
-{"case_id": "EC_029", "step": "PaymentAgent", "task_id": "EC_029-payment-e4a790ff", "status": "completed", "duration_ms": 0.047}
-{"case_id": "EC_029", "step": "DeliveryAgent", "task_id": "EC_029-delivery-0e459952", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_029", "step": "PolicyAgent", "task_id": "EC_029-policy-fc1ad7f4", "status": "completed", "duration_ms": 2013.388, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_029", "step": "VerifierAgent", "task_id": "EC_029-verifier-ba7e07c8", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_030", "step": "OrderAgent", "task_id": "EC_030-order-ea47d343", "status": "completed", "duration_ms": 0.048}
-{"case_id": "EC_030", "step": "PaymentAgent", "task_id": "EC_030-payment-e3c4bced", "status": "completed", "duration_ms": 0.035}
-{"case_id": "EC_030", "step": "DeliveryAgent", "task_id": "EC_030-delivery-387b639b", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_030", "step": "PolicyAgent", "task_id": "EC_030-policy-3dcf28ed", "status": "completed", "duration_ms": 1553.352, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_030", "step": "VerifierAgent", "task_id": "EC_030-verifier-a695b426", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_031", "step": "OrderAgent", "task_id": "EC_031-order-48afc3d7", "status": "completed", "duration_ms": 0.119}
-{"case_id": "EC_031", "step": "PaymentAgent", "task_id": "EC_031-payment-23b09ef6", "status": "completed", "duration_ms": 0.064}
-{"case_id": "EC_031", "step": "DeliveryAgent", "task_id": "EC_031-delivery-efbc608b", "status": "completed", "duration_ms": 0.063}
-{"case_id": "EC_031", "step": "PolicyAgent", "task_id": "EC_031-policy-9e4a1f95", "status": "completed", "duration_ms": 1589.14, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_031", "step": "VerifierAgent", "task_id": "EC_031-verifier-d5a890f6", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_032", "step": "OrderAgent", "task_id": "EC_032-order-1ab3677a", "status": "completed", "duration_ms": 0.082}
-{"case_id": "EC_032", "step": "PaymentAgent", "task_id": "EC_032-payment-1cb73f95", "status": "completed", "duration_ms": 0.047}
-{"case_id": "EC_032", "step": "DeliveryAgent", "task_id": "EC_032-delivery-77ffd198", "status": "completed", "duration_ms": 0.029}
-{"case_id": "EC_032", "step": "PolicyAgent", "task_id": "EC_032-policy-7c7a21a8", "status": "completed", "duration_ms": 2600.403, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_032", "step": "VerifierAgent", "task_id": "EC_032-verifier-515ad4ab", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_033", "step": "OrderAgent", "task_id": "EC_033-order-d7e1f213", "status": "completed", "duration_ms": 0.032}
-{"case_id": "EC_033", "step": "PaymentAgent", "task_id": "EC_033-payment-c74ddcb7", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_033", "step": "DeliveryAgent", "task_id": "EC_033-delivery-4c628961", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_033", "step": "PolicyAgent", "task_id": "EC_033-policy-6f0334bc", "status": "completed", "duration_ms": 1703.292, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_033", "step": "VerifierAgent", "task_id": "EC_033-verifier-6834cc22", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_034", "step": "OrderAgent", "task_id": "EC_034-order-85eb81a7", "status": "completed", "duration_ms": 0.059}
-{"case_id": "EC_034", "step": "PaymentAgent", "task_id": "EC_034-payment-b38e9604", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_034", "step": "DeliveryAgent", "task_id": "EC_034-delivery-aba9770b", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_034", "step": "PolicyAgent", "task_id": "EC_034-policy-f5818a74", "status": "completed", "duration_ms": 2504.175, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_034", "step": "VerifierAgent", "task_id": "EC_034-verifier-471d88c2", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_035", "step": "OrderAgent", "task_id": "EC_035-order-80afc133", "status": "completed", "duration_ms": 0.188}
-{"case_id": "EC_035", "step": "PaymentAgent", "task_id": "EC_035-payment-e7f51233", "status": "completed", "duration_ms": 0.071}
-{"case_id": "EC_035", "step": "DeliveryAgent", "task_id": "EC_035-delivery-44440ca6", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_035", "step": "PolicyAgent", "task_id": "EC_035-policy-628bcf57", "status": "completed", "duration_ms": 1647.04, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_035", "step": "VerifierAgent", "task_id": "EC_035-verifier-a2b3c383", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_036", "step": "OrderAgent", "task_id": "EC_036-order-98b699ca", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_036", "step": "PaymentAgent", "task_id": "EC_036-payment-810635aa", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_036", "step": "DeliveryAgent", "task_id": "EC_036-delivery-40073e8b", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_036", "step": "PolicyAgent", "task_id": "EC_036-policy-e4abcffb", "status": "completed", "duration_ms": 1303.934, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_036", "step": "VerifierAgent", "task_id": "EC_036-verifier-5b93502b", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_037", "step": "OrderAgent", "task_id": "EC_037-order-6936dace", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_037", "step": "PaymentAgent", "task_id": "EC_037-payment-8b59f2b4", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_037", "step": "DeliveryAgent", "task_id": "EC_037-delivery-01fa4e15", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_037", "step": "PolicyAgent", "task_id": "EC_037-policy-60cd3031", "status": "completed", "duration_ms": 1589.114, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_037", "step": "VerifierAgent", "task_id": "EC_037-verifier-82e9ba9f", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_038", "step": "OrderAgent", "task_id": "EC_038-order-09265197", "status": "completed", "duration_ms": 0.062}
-{"case_id": "EC_038", "step": "PaymentAgent", "task_id": "EC_038-payment-c5c2af79", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_038", "step": "DeliveryAgent", "task_id": "EC_038-delivery-88594664", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_038", "step": "PolicyAgent", "task_id": "EC_038-policy-2a76860e", "status": "completed", "duration_ms": 1391.306, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_038", "step": "VerifierAgent", "task_id": "EC_038-verifier-94ba98f3", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_039", "step": "OrderAgent", "task_id": "EC_039-order-c08f26ca", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_039", "step": "PaymentAgent", "task_id": "EC_039-payment-0badc88e", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_039", "step": "DeliveryAgent", "task_id": "EC_039-delivery-c488f886", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_039", "step": "PolicyAgent", "task_id": "EC_039-policy-a24f1338", "status": "completed", "duration_ms": 1239.104, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_039", "step": "VerifierAgent", "task_id": "EC_039-verifier-31af5ba4", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_040", "step": "OrderAgent", "task_id": "EC_040-order-9b24c944", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_040", "step": "PaymentAgent", "task_id": "EC_040-payment-8c26869a", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_040", "step": "DeliveryAgent", "task_id": "EC_040-delivery-640eab1f", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_040", "step": "PolicyAgent", "task_id": "EC_040-policy-1ac2b6ba", "status": "completed", "duration_ms": 2043.817, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_040", "step": "VerifierAgent", "task_id": "EC_040-verifier-721ecb74", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_041", "step": "OrderAgent", "task_id": "EC_041-order-2ce5f355", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_041", "step": "PaymentAgent", "task_id": "EC_041-payment-174a2dc5", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_041", "step": "DeliveryAgent", "task_id": "EC_041-delivery-b9c1d79c", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_041", "step": "PolicyAgent", "task_id": "EC_041-policy-ac78ce1d", "status": "completed", "duration_ms": 2158.136, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_041", "step": "VerifierAgent", "task_id": "EC_041-verifier-064a5570", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_042", "step": "OrderAgent", "task_id": "EC_042-order-7d59f46f", "status": "completed", "duration_ms": 0.078}
-{"case_id": "EC_042", "step": "PaymentAgent", "task_id": "EC_042-payment-40d77036", "status": "completed", "duration_ms": 0.048}
-{"case_id": "EC_042", "step": "DeliveryAgent", "task_id": "EC_042-delivery-033b731e", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_042", "step": "PolicyAgent", "task_id": "EC_042-policy-e0f5ee9a", "status": "completed", "duration_ms": 1371.718, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_042", "step": "VerifierAgent", "task_id": "EC_042-verifier-92a451d5", "status": "completed", "duration_ms": 0.008}
-{"case_id": "EC_043", "step": "OrderAgent", "task_id": "EC_043-order-c5115cc2", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_043", "step": "PaymentAgent", "task_id": "EC_043-payment-a8ed11f6", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_043", "step": "DeliveryAgent", "task_id": "EC_043-delivery-2ef0277f", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_043", "step": "PolicyAgent", "task_id": "EC_043-policy-0e8b48b7", "status": "completed", "duration_ms": 1388.503, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_043", "step": "VerifierAgent", "task_id": "EC_043-verifier-8ed878f4", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_044", "step": "OrderAgent", "task_id": "EC_044-order-48630969", "status": "completed", "duration_ms": 0.207}
-{"case_id": "EC_044", "step": "PaymentAgent", "task_id": "EC_044-payment-6a8367ad", "status": "completed", "duration_ms": 0.178}
-{"case_id": "EC_044", "step": "DeliveryAgent", "task_id": "EC_044-delivery-3fda4f4b", "status": "completed", "duration_ms": 0.107}
-{"case_id": "EC_044", "step": "PolicyAgent", "task_id": "EC_044-policy-3bc77d92", "status": "completed", "duration_ms": 1520.231, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_044", "step": "VerifierAgent", "task_id": "EC_044-verifier-f2a0e211", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_045", "step": "OrderAgent", "task_id": "EC_045-order-3cdf7891", "status": "completed", "duration_ms": 0.078}
-{"case_id": "EC_045", "step": "PaymentAgent", "task_id": "EC_045-payment-c659ed2e", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_045", "step": "DeliveryAgent", "task_id": "EC_045-delivery-ac6175ab", "status": "completed", "duration_ms": 0.031}
-{"case_id": "EC_045", "step": "PolicyAgent", "task_id": "EC_045-policy-98ad9131", "status": "completed", "duration_ms": 1312.75, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_045", "step": "VerifierAgent", "task_id": "EC_045-verifier-c730a436", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_046", "step": "OrderAgent", "task_id": "EC_046-order-cee9dfa5", "status": "completed", "duration_ms": 0.062}
-{"case_id": "EC_046", "step": "PaymentAgent", "task_id": "EC_046-payment-8895721d", "status": "completed", "duration_ms": 0.029}
-{"case_id": "EC_046", "step": "DeliveryAgent", "task_id": "EC_046-delivery-1707236b", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_046", "step": "PolicyAgent", "task_id": "EC_046-policy-bffe0964", "status": "completed", "duration_ms": 1390.304, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_046", "step": "VerifierAgent", "task_id": "EC_046-verifier-dd60b9e9", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_047", "step": "OrderAgent", "task_id": "EC_047-order-c42fecdc", "status": "completed", "duration_ms": 0.083}
-{"case_id": "EC_047", "step": "PaymentAgent", "task_id": "EC_047-payment-495aae34", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_047", "step": "DeliveryAgent", "task_id": "EC_047-delivery-c0f83054", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_047", "step": "PolicyAgent", "task_id": "EC_047-policy-91869644", "status": "completed", "duration_ms": 3062.784, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_047", "step": "VerifierAgent", "task_id": "EC_047-verifier-0d05e353", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_048", "step": "OrderAgent", "task_id": "EC_048-order-582262e1", "status": "completed", "duration_ms": 0.084}
-{"case_id": "EC_048", "step": "PaymentAgent", "task_id": "EC_048-payment-40ddaeec", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_048", "step": "DeliveryAgent", "task_id": "EC_048-delivery-952c2d9f", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_048", "step": "PolicyAgent", "task_id": "EC_048-policy-2d1132a5", "status": "completed", "duration_ms": 1362.041, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_048", "step": "VerifierAgent", "task_id": "EC_048-verifier-06cb1fb0", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_049", "step": "OrderAgent", "task_id": "EC_049-order-98252291", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_049", "step": "PaymentAgent", "task_id": "EC_049-payment-bcfcb4a6", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_049", "step": "DeliveryAgent", "task_id": "EC_049-delivery-355204c7", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_049", "step": "PolicyAgent", "task_id": "EC_049-policy-aba46c35", "status": "completed", "duration_ms": 2168.328, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_049", "step": "VerifierAgent", "task_id": "EC_049-verifier-cd7be922", "status": "completed", "duration_ms": 0.04}
-{"case_id": "EC_050", "step": "OrderAgent", "task_id": "EC_050-order-27047604", "status": "completed", "duration_ms": 0.112}
-{"case_id": "EC_050", "step": "PaymentAgent", "task_id": "EC_050-payment-58880936", "status": "completed", "duration_ms": 0.072}
-{"case_id": "EC_050", "step": "DeliveryAgent", "task_id": "EC_050-delivery-0fcfc694", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_050", "step": "PolicyAgent", "task_id": "EC_050-policy-58eea1fd", "status": "completed", "duration_ms": 1198.607, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_050", "step": "VerifierAgent", "task_id": "EC_050-verifier-ad787449", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_001", "step": "OrderAgent", "task_id": "EC_001-order-897c9f2f", "status": "completed", "duration_ms": 0.055}
+{"case_id": "EC_001", "step": "PaymentAgent", "task_id": "EC_001-payment-bd78507c", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_001", "step": "DeliveryAgent", "task_id": "EC_001-delivery-4f53c9c0", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_001", "step": "PolicyAgent", "task_id": "EC_001-policy-c7e1ea64", "status": "completed", "duration_ms": 3841.821, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 9, "vote_share": 0.9, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "f7496d659ca9fdaf323c0aae84176632", "recommended_refund_brl": 0.0, "votes": 9}, {"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "f7496d659ca9fdaf323c0aae84176632", "recommended_refund_brl": 12.04, "votes": 1}]}
+{"case_id": "EC_001", "step": "VerifierAgent", "task_id": "EC_001-verifier-71977d9a", "status": "completed", "duration_ms": 0.036}
+{"case_id": "EC_002", "step": "OrderAgent", "task_id": "EC_002-order-22eb81a5", "status": "completed", "duration_ms": 0.053}
+{"case_id": "EC_002", "step": "PaymentAgent", "task_id": "EC_002-payment-e96cfade", "status": "completed", "duration_ms": 0.027}
+{"case_id": "EC_002", "step": "DeliveryAgent", "task_id": "EC_002-delivery-9a6fd52c", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_002", "step": "PolicyAgent", "task_id": "EC_002-policy-6f0694bb", "status": "completed", "duration_ms": 2954.702, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_002", "step": "VerifierAgent", "task_id": "EC_002-verifier-47109668", "status": "completed", "duration_ms": 0.153}
+{"case_id": "EC_003", "step": "OrderAgent", "task_id": "EC_003-order-e36a0b87", "status": "completed", "duration_ms": 0.043}
+{"case_id": "EC_003", "step": "PaymentAgent", "task_id": "EC_003-payment-0608c93e", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_003", "step": "DeliveryAgent", "task_id": "EC_003-delivery-d17ea9c2", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_003", "step": "PolicyAgent", "task_id": "EC_003-policy-9401ebd9", "status": "completed", "duration_ms": 4808.809, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 109.34, "votes": 10}]}
+{"case_id": "EC_003", "step": "VerifierAgent", "task_id": "EC_003-verifier-b9c10aa2", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_004", "step": "OrderAgent", "task_id": "EC_004-order-51172f4e", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_004", "step": "PaymentAgent", "task_id": "EC_004-payment-e2fa8957", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_004", "step": "DeliveryAgent", "task_id": "EC_004-delivery-82138618", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_004", "step": "PolicyAgent", "task_id": "EC_004-policy-9c628e72", "status": "completed", "duration_ms": 2965.187, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_004", "step": "VerifierAgent", "task_id": "EC_004-verifier-ad84215c", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_005", "step": "OrderAgent", "task_id": "EC_005-order-d0b68dfd", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_005", "step": "PaymentAgent", "task_id": "EC_005-payment-587d5700", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_005", "step": "DeliveryAgent", "task_id": "EC_005-delivery-d277e655", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_005", "step": "PolicyAgent", "task_id": "EC_005-policy-02de1ca3", "status": "completed", "duration_ms": 2844.016, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 1191.5, "votes": 10}]}
+{"case_id": "EC_005", "step": "VerifierAgent", "task_id": "EC_005-verifier-2354dc4e", "status": "completed", "duration_ms": 0.034}
+{"case_id": "EC_006", "step": "OrderAgent", "task_id": "EC_006-order-51e94fb4", "status": "completed", "duration_ms": 0.079}
+{"case_id": "EC_006", "step": "PaymentAgent", "task_id": "EC_006-payment-fcea7e83", "status": "completed", "duration_ms": 0.045}
+{"case_id": "EC_006", "step": "DeliveryAgent", "task_id": "EC_006-delivery-b8f6226d", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_006", "step": "PolicyAgent", "task_id": "EC_006-policy-823a3473", "status": "completed", "duration_ms": 3520.78, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_006", "step": "VerifierAgent", "task_id": "EC_006-verifier-2b47ce06", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_007", "step": "OrderAgent", "task_id": "EC_007-order-a9822196", "status": "completed", "duration_ms": 0.06}
+{"case_id": "EC_007", "step": "PaymentAgent", "task_id": "EC_007-payment-a7bbfb9a", "status": "completed", "duration_ms": 0.027}
+{"case_id": "EC_007", "step": "DeliveryAgent", "task_id": "EC_007-delivery-3434753b", "status": "completed", "duration_ms": 0.012}
+{"case_id": "EC_007", "step": "PolicyAgent", "task_id": "EC_007-policy-c755eb34", "status": "completed", "duration_ms": 3915.866, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 56.4, "votes": 10}]}
+{"case_id": "EC_007", "step": "VerifierAgent", "task_id": "EC_007-verifier-981cc0f0", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_008", "step": "OrderAgent", "task_id": "EC_008-order-89805491", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_008", "step": "PaymentAgent", "task_id": "EC_008-payment-c460741d", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_008", "step": "DeliveryAgent", "task_id": "EC_008-delivery-68b96afa", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_008", "step": "PolicyAgent", "task_id": "EC_008-policy-7e6a8827", "status": "completed", "duration_ms": 2866.618, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 250.57, "votes": 10}]}
+{"case_id": "EC_008", "step": "VerifierAgent", "task_id": "EC_008-verifier-55a425b2", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_009", "step": "OrderAgent", "task_id": "EC_009-order-532ee9e8", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_009", "step": "PaymentAgent", "task_id": "EC_009-payment-d51f3a0b", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_009", "step": "DeliveryAgent", "task_id": "EC_009-delivery-61fd01d9", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_009", "step": "PolicyAgent", "task_id": "EC_009-policy-680a88fa", "status": "completed", "duration_ms": 2974.009, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_009", "step": "VerifierAgent", "task_id": "EC_009-verifier-ecacc42e", "status": "completed", "duration_ms": 0.025}
+{"case_id": "EC_010", "step": "OrderAgent", "task_id": "EC_010-order-80034c57", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_010", "step": "PaymentAgent", "task_id": "EC_010-payment-806d7c72", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_010", "step": "DeliveryAgent", "task_id": "EC_010-delivery-348b5723", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_010", "step": "PolicyAgent", "task_id": "EC_010-policy-11e4822d", "status": "completed", "duration_ms": 3398.569, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_010", "step": "VerifierAgent", "task_id": "EC_010-verifier-537da9b7", "status": "completed", "duration_ms": 0.102}
+{"case_id": "EC_011", "step": "OrderAgent", "task_id": "EC_011-order-feaa0dfe", "status": "completed", "duration_ms": 0.174}
+{"case_id": "EC_011", "step": "PaymentAgent", "task_id": "EC_011-payment-81628ada", "status": "completed", "duration_ms": 0.137}
+{"case_id": "EC_011", "step": "DeliveryAgent", "task_id": "EC_011-delivery-82969bfb", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_011", "step": "PolicyAgent", "task_id": "EC_011-policy-a60348d7", "status": "completed", "duration_ms": 3346.479, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 142.09, "votes": 10}]}
+{"case_id": "EC_011", "step": "VerifierAgent", "task_id": "EC_011-verifier-b53e0187", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_012", "step": "OrderAgent", "task_id": "EC_012-order-1d9ddf45", "status": "completed", "duration_ms": 0.04}
+{"case_id": "EC_012", "step": "PaymentAgent", "task_id": "EC_012-payment-d914acf9", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_012", "step": "DeliveryAgent", "task_id": "EC_012-delivery-5523d567", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_012", "step": "PolicyAgent", "task_id": "EC_012-policy-614cba43", "status": "completed", "duration_ms": 3306.322, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_012", "step": "VerifierAgent", "task_id": "EC_012-verifier-2504e96b", "status": "completed", "duration_ms": 0.051}
+{"case_id": "EC_013", "step": "OrderAgent", "task_id": "EC_013-order-8b25be9b", "status": "completed", "duration_ms": 0.063}
+{"case_id": "EC_013", "step": "PaymentAgent", "task_id": "EC_013-payment-a7f392ab", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_013", "step": "DeliveryAgent", "task_id": "EC_013-delivery-b679109e", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_013", "step": "PolicyAgent", "task_id": "EC_013-policy-e390478c", "status": "completed", "duration_ms": 3039.677, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 619.86, "votes": 10}]}
+{"case_id": "EC_013", "step": "VerifierAgent", "task_id": "EC_013-verifier-bd175be4", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_014", "step": "OrderAgent", "task_id": "EC_014-order-80571ca8", "status": "completed", "duration_ms": 0.07}
+{"case_id": "EC_014", "step": "PaymentAgent", "task_id": "EC_014-payment-d7c7b068", "status": "completed", "duration_ms": 0.111}
+{"case_id": "EC_014", "step": "DeliveryAgent", "task_id": "EC_014-delivery-b396e795", "status": "completed", "duration_ms": 0.013}
+{"case_id": "EC_014", "step": "PolicyAgent", "task_id": "EC_014-policy-4b69286e", "status": "completed", "duration_ms": 3756.183, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_014", "step": "VerifierAgent", "task_id": "EC_014-verifier-c53ee303", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_015", "step": "OrderAgent", "task_id": "EC_015-order-a03c0b79", "status": "completed", "duration_ms": 0.074}
+{"case_id": "EC_015", "step": "PaymentAgent", "task_id": "EC_015-payment-502748ba", "status": "completed", "duration_ms": 0.048}
+{"case_id": "EC_015", "step": "DeliveryAgent", "task_id": "EC_015-delivery-1f29a815", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_015", "step": "PolicyAgent", "task_id": "EC_015-policy-19e3c3ba", "status": "completed", "duration_ms": 3682.065, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 69.49, "votes": 10}]}
+{"case_id": "EC_015", "step": "VerifierAgent", "task_id": "EC_015-verifier-54d39af3", "status": "completed", "duration_ms": 0.067}
+{"case_id": "EC_016", "step": "OrderAgent", "task_id": "EC_016-order-e8e5ef1c", "status": "completed", "duration_ms": 0.12}
+{"case_id": "EC_016", "step": "PaymentAgent", "task_id": "EC_016-payment-6bafe55f", "status": "completed", "duration_ms": 0.057}
+{"case_id": "EC_016", "step": "DeliveryAgent", "task_id": "EC_016-delivery-3a94db05", "status": "completed", "duration_ms": 0.043}
+{"case_id": "EC_016", "step": "PolicyAgent", "task_id": "EC_016-policy-0fad6716", "status": "completed", "duration_ms": 6799.219, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_016", "step": "VerifierAgent", "task_id": "EC_016-verifier-53dcd51f", "status": "completed", "duration_ms": 0.096}
+{"case_id": "EC_017", "step": "OrderAgent", "task_id": "EC_017-order-9fedfc56", "status": "completed", "duration_ms": 0.142}
+{"case_id": "EC_017", "step": "PaymentAgent", "task_id": "EC_017-payment-b760e905", "status": "completed", "duration_ms": 0.088}
+{"case_id": "EC_017", "step": "DeliveryAgent", "task_id": "EC_017-delivery-98a2745c", "status": "completed", "duration_ms": 0.058}
+{"case_id": "EC_017", "step": "PolicyAgent", "task_id": "EC_017-policy-7813a8a7", "status": "completed", "duration_ms": 3493.152, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_017", "step": "VerifierAgent", "task_id": "EC_017-verifier-5eee9aff", "status": "completed", "duration_ms": 0.063}
+{"case_id": "EC_018", "step": "OrderAgent", "task_id": "EC_018-order-2098cc21", "status": "completed", "duration_ms": 0.066}
+{"case_id": "EC_018", "step": "PaymentAgent", "task_id": "EC_018-payment-1dd93880", "status": "completed", "duration_ms": 0.042}
+{"case_id": "EC_018", "step": "DeliveryAgent", "task_id": "EC_018-delivery-6783566d", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_018", "step": "PolicyAgent", "task_id": "EC_018-policy-2f48696e", "status": "completed", "duration_ms": 3741.147, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_018", "step": "VerifierAgent", "task_id": "EC_018-verifier-7788dd75", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_019", "step": "OrderAgent", "task_id": "EC_019-order-80596e8b", "status": "completed", "duration_ms": 0.076}
+{"case_id": "EC_019", "step": "PaymentAgent", "task_id": "EC_019-payment-0523510b", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_019", "step": "DeliveryAgent", "task_id": "EC_019-delivery-80152d2d", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_019", "step": "PolicyAgent", "task_id": "EC_019-policy-41b72e5e", "status": "completed", "duration_ms": 2642.301, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 74.7, "votes": 10}]}
+{"case_id": "EC_019", "step": "VerifierAgent", "task_id": "EC_019-verifier-6e36d03c", "status": "completed", "duration_ms": 0.034}
+{"case_id": "EC_020", "step": "OrderAgent", "task_id": "EC_020-order-649e2d29", "status": "completed", "duration_ms": 0.112}
+{"case_id": "EC_020", "step": "PaymentAgent", "task_id": "EC_020-payment-b7e771b8", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_020", "step": "DeliveryAgent", "task_id": "EC_020-delivery-58150702", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_020", "step": "PolicyAgent", "task_id": "EC_020-policy-93025694", "status": "completed", "duration_ms": 7756.516, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_020", "step": "VerifierAgent", "task_id": "EC_020-verifier-05486c5c", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_021", "step": "OrderAgent", "task_id": "EC_021-order-015de5e9", "status": "completed", "duration_ms": 0.414}
+{"case_id": "EC_021", "step": "PaymentAgent", "task_id": "EC_021-payment-d8ae9e8d", "status": "completed", "duration_ms": 0.079}
+{"case_id": "EC_021", "step": "DeliveryAgent", "task_id": "EC_021-delivery-41eb8d94", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_021", "step": "PolicyAgent", "task_id": "EC_021-policy-345ae703", "status": "completed", "duration_ms": 3500.674, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 38.86, "votes": 10}]}
+{"case_id": "EC_021", "step": "VerifierAgent", "task_id": "EC_021-verifier-9b651725", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_022", "step": "OrderAgent", "task_id": "EC_022-order-ff73c982", "status": "completed", "duration_ms": 0.43}
+{"case_id": "EC_022", "step": "PaymentAgent", "task_id": "EC_022-payment-fc0801df", "status": "completed", "duration_ms": 0.176}
+{"case_id": "EC_022", "step": "DeliveryAgent", "task_id": "EC_022-delivery-99aedb79", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_022", "step": "PolicyAgent", "task_id": "EC_022-policy-e9edb29c", "status": "completed", "duration_ms": 4258.428, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 7, "vote_share": 0.7, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "02d35243ea2e497335cd0f076b45675d", "recommended_refund_brl": 19.98, "votes": 7}, {"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "02d35243ea2e497335cd0f076b45675d", "recommended_refund_brl": 0.0, "votes": 3}]}
+{"case_id": "EC_022", "step": "VerifierAgent", "task_id": "EC_022-verifier-b1eb3d5d", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_023", "step": "OrderAgent", "task_id": "EC_023-order-44024284", "status": "completed", "duration_ms": 0.156}
+{"case_id": "EC_023", "step": "PaymentAgent", "task_id": "EC_023-payment-0778beeb", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_023", "step": "DeliveryAgent", "task_id": "EC_023-delivery-2e5e7bad", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_023", "step": "PolicyAgent", "task_id": "EC_023-policy-76d89b5a", "status": "completed", "duration_ms": 3243.197, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_023", "step": "VerifierAgent", "task_id": "EC_023-verifier-ba340b9e", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_024", "step": "OrderAgent", "task_id": "EC_024-order-8379ee9b", "status": "completed", "duration_ms": 0.104}
+{"case_id": "EC_024", "step": "PaymentAgent", "task_id": "EC_024-payment-8cfd8014", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_024", "step": "DeliveryAgent", "task_id": "EC_024-delivery-d1e0f6b2", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_024", "step": "PolicyAgent", "task_id": "EC_024-policy-0f6c725a", "status": "completed", "duration_ms": 8702.278, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 87.08, "votes": 10}]}
+{"case_id": "EC_024", "step": "VerifierAgent", "task_id": "EC_024-verifier-01f54633", "status": "completed", "duration_ms": 0.092}
+{"case_id": "EC_025", "step": "OrderAgent", "task_id": "EC_025-order-df393bb9", "status": "completed", "duration_ms": 0.31}
+{"case_id": "EC_025", "step": "PaymentAgent", "task_id": "EC_025-payment-81a2ca3a", "status": "completed", "duration_ms": 0.114}
+{"case_id": "EC_025", "step": "DeliveryAgent", "task_id": "EC_025-delivery-00936956", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_025", "step": "PolicyAgent", "task_id": "EC_025-policy-b5c595d5", "status": "completed", "duration_ms": 3593.132, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_025", "step": "VerifierAgent", "task_id": "EC_025-verifier-2e0e3d6c", "status": "completed", "duration_ms": 0.025}
+{"case_id": "EC_026", "step": "OrderAgent", "task_id": "EC_026-order-f12c922b", "status": "completed", "duration_ms": 2.479}
+{"case_id": "EC_026", "step": "PaymentAgent", "task_id": "EC_026-payment-27383319", "status": "completed", "duration_ms": 0.227}
+{"case_id": "EC_026", "step": "DeliveryAgent", "task_id": "EC_026-delivery-5ceb9b75", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_026", "step": "PolicyAgent", "task_id": "EC_026-policy-830f6dfc", "status": "completed", "duration_ms": 3077.417, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 142.34, "votes": 10}]}
+{"case_id": "EC_026", "step": "VerifierAgent", "task_id": "EC_026-verifier-16713f0e", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_027", "step": "OrderAgent", "task_id": "EC_027-order-513bebd3", "status": "completed", "duration_ms": 2.366}
+{"case_id": "EC_027", "step": "PaymentAgent", "task_id": "EC_027-payment-9c9d0a1a", "status": "completed", "duration_ms": 0.23}
+{"case_id": "EC_027", "step": "DeliveryAgent", "task_id": "EC_027-delivery-55495c51", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_027", "step": "PolicyAgent", "task_id": "EC_027-policy-4731ccef", "status": "completed", "duration_ms": 4787.791, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 74.7, "votes": 10}]}
+{"case_id": "EC_027", "step": "VerifierAgent", "task_id": "EC_027-verifier-d5707c42", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_028", "step": "OrderAgent", "task_id": "EC_028-order-c89204dd", "status": "completed", "duration_ms": 2.811}
+{"case_id": "EC_028", "step": "PaymentAgent", "task_id": "EC_028-payment-791be2e2", "status": "completed", "duration_ms": 0.181}
+{"case_id": "EC_028", "step": "DeliveryAgent", "task_id": "EC_028-delivery-aa6010f3", "status": "completed", "duration_ms": 0.013}
+{"case_id": "EC_028", "step": "PolicyAgent", "task_id": "EC_028-policy-ae21bdaa", "status": "completed", "duration_ms": 3401.89, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 61.19, "votes": 10}]}
+{"case_id": "EC_028", "step": "VerifierAgent", "task_id": "EC_028-verifier-8b7fcd4f", "status": "completed", "duration_ms": 0.115}
+{"case_id": "EC_029", "step": "OrderAgent", "task_id": "EC_029-order-8e4b6f8c", "status": "completed", "duration_ms": 3.697}
+{"case_id": "EC_029", "step": "PaymentAgent", "task_id": "EC_029-payment-2534626d", "status": "completed", "duration_ms": 0.286}
+{"case_id": "EC_029", "step": "DeliveryAgent", "task_id": "EC_029-delivery-20da3b2d", "status": "completed", "duration_ms": 0.035}
+{"case_id": "EC_029", "step": "PolicyAgent", "task_id": "EC_029-policy-446b8b2b", "status": "completed", "duration_ms": 3419.595, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "88460e8ebdecbfecb5f9601833981930", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_029", "step": "VerifierAgent", "task_id": "EC_029-verifier-0aebad20", "status": "completed", "duration_ms": 0.12}
+{"case_id": "EC_030", "step": "OrderAgent", "task_id": "EC_030-order-3c9e316c", "status": "completed", "duration_ms": 4.698}
+{"case_id": "EC_030", "step": "PaymentAgent", "task_id": "EC_030-payment-7c6b2c73", "status": "completed", "duration_ms": 0.985}
+{"case_id": "EC_030", "step": "DeliveryAgent", "task_id": "EC_030-delivery-cf242143", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_030", "step": "PolicyAgent", "task_id": "EC_030-policy-66649328", "status": "completed", "duration_ms": 7635.787, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_030", "step": "VerifierAgent", "task_id": "EC_030-verifier-bf4b4cdd", "status": "completed", "duration_ms": 0.102}
+{"case_id": "EC_031", "step": "OrderAgent", "task_id": "EC_031-order-92bc91f1", "status": "completed", "duration_ms": 2.468}
+{"case_id": "EC_031", "step": "PaymentAgent", "task_id": "EC_031-payment-6af9a720", "status": "completed", "duration_ms": 0.525}
+{"case_id": "EC_031", "step": "DeliveryAgent", "task_id": "EC_031-delivery-64e034c8", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_031", "step": "PolicyAgent", "task_id": "EC_031-policy-5851907a", "status": "completed", "duration_ms": 3336.388, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_031", "step": "VerifierAgent", "task_id": "EC_031-verifier-5b87fd18", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_032", "step": "OrderAgent", "task_id": "EC_032-order-54e70f8f", "status": "completed", "duration_ms": 1.053}
+{"case_id": "EC_032", "step": "PaymentAgent", "task_id": "EC_032-payment-d4d8ea1f", "status": "completed", "duration_ms": 0.175}
+{"case_id": "EC_032", "step": "DeliveryAgent", "task_id": "EC_032-delivery-f460efce", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_032", "step": "PolicyAgent", "task_id": "EC_032-policy-0425743e", "status": "completed", "duration_ms": 3433.402, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_032", "step": "VerifierAgent", "task_id": "EC_032-verifier-598e2cc9", "status": "completed", "duration_ms": 0.055}
+{"case_id": "EC_033", "step": "OrderAgent", "task_id": "EC_033-order-3d763740", "status": "completed", "duration_ms": 3.112}
+{"case_id": "EC_033", "step": "PaymentAgent", "task_id": "EC_033-payment-f0268b3b", "status": "completed", "duration_ms": 0.31}
+{"case_id": "EC_033", "step": "DeliveryAgent", "task_id": "EC_033-delivery-1e0661e3", "status": "completed", "duration_ms": 0.04}
+{"case_id": "EC_033", "step": "PolicyAgent", "task_id": "EC_033-policy-ce120c90", "status": "completed", "duration_ms": 4229.787, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "1025f0e2d44d7041d6cf58b6550e0bfa", "recommended_refund_brl": 18.72, "votes": 10}]}
+{"case_id": "EC_033", "step": "VerifierAgent", "task_id": "EC_033-verifier-afac12d5", "status": "completed", "duration_ms": 0.109}
+{"case_id": "EC_034", "step": "OrderAgent", "task_id": "EC_034-order-cf27215a", "status": "completed", "duration_ms": 3.725}
+{"case_id": "EC_034", "step": "PaymentAgent", "task_id": "EC_034-payment-956e2809", "status": "completed", "duration_ms": 0.617}
+{"case_id": "EC_034", "step": "DeliveryAgent", "task_id": "EC_034-delivery-d301e2ce", "status": "completed", "duration_ms": 0.052}
+{"case_id": "EC_034", "step": "PolicyAgent", "task_id": "EC_034-policy-812549f1", "status": "completed", "duration_ms": 4342.756, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "66922902710d126a0e7d26b0e3805106", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_034", "step": "VerifierAgent", "task_id": "EC_034-verifier-ed7f5cb4", "status": "completed", "duration_ms": 0.025}
+{"case_id": "EC_035", "step": "OrderAgent", "task_id": "EC_035-order-3723c259", "status": "completed", "duration_ms": 1.508}
+{"case_id": "EC_035", "step": "PaymentAgent", "task_id": "EC_035-payment-cfe6e1d1", "status": "completed", "duration_ms": 0.184}
+{"case_id": "EC_035", "step": "DeliveryAgent", "task_id": "EC_035-delivery-6543f61d", "status": "completed", "duration_ms": 0.012}
+{"case_id": "EC_035", "step": "PolicyAgent", "task_id": "EC_035-policy-d5fa35d4", "status": "completed", "duration_ms": 2811.033, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_035", "step": "VerifierAgent", "task_id": "EC_035-verifier-bf6969d9", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_036", "step": "OrderAgent", "task_id": "EC_036-order-a01fcd98", "status": "completed", "duration_ms": 1.195}
+{"case_id": "EC_036", "step": "PaymentAgent", "task_id": "EC_036-payment-135aad1b", "status": "completed", "duration_ms": 0.143}
+{"case_id": "EC_036", "step": "DeliveryAgent", "task_id": "EC_036-delivery-fa636a59", "status": "completed", "duration_ms": 0.014}
+{"case_id": "EC_036", "step": "PolicyAgent", "task_id": "EC_036-policy-e7297b2c", "status": "completed", "duration_ms": 3314.238, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unavailable_order_paid", "cause_code": "ORDER_UNAVAILABLE_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 117.78, "votes": 10}]}
+{"case_id": "EC_036", "step": "VerifierAgent", "task_id": "EC_036-verifier-9d3bc3c0", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_037", "step": "OrderAgent", "task_id": "EC_037-order-0d8db466", "status": "completed", "duration_ms": 2.044}
+{"case_id": "EC_037", "step": "PaymentAgent", "task_id": "EC_037-payment-912629ed", "status": "completed", "duration_ms": 0.172}
+{"case_id": "EC_037", "step": "DeliveryAgent", "task_id": "EC_037-delivery-d8201771", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_037", "step": "PolicyAgent", "task_id": "EC_037-policy-e37a4f24", "status": "completed", "duration_ms": 8878.282, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 9, "vote_share": 0.9, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "1ca7077d890b907f89be8c954a02686a", "recommended_refund_brl": 0.0, "votes": 9}, {"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "1ca7077d890b907f89be8c954a02686a", "recommended_refund_brl": 14.79, "votes": 1}]}
+{"case_id": "EC_037", "step": "VerifierAgent", "task_id": "EC_037-verifier-d3333731", "status": "completed", "duration_ms": 0.028}
+{"case_id": "EC_038", "step": "OrderAgent", "task_id": "EC_038-order-6c77c32f", "status": "completed", "duration_ms": 1.493}
+{"case_id": "EC_038", "step": "PaymentAgent", "task_id": "EC_038-payment-0d60cbad", "status": "completed", "duration_ms": 0.269}
+{"case_id": "EC_038", "step": "DeliveryAgent", "task_id": "EC_038-delivery-101c2f9e", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_038", "step": "PolicyAgent", "task_id": "EC_038-policy-6884aeec", "status": "completed", "duration_ms": 3076.264, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_038", "step": "VerifierAgent", "task_id": "EC_038-verifier-fd662807", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_039", "step": "OrderAgent", "task_id": "EC_039-order-9bd82504", "status": "completed", "duration_ms": 2.067}
+{"case_id": "EC_039", "step": "PaymentAgent", "task_id": "EC_039-payment-11008d78", "status": "completed", "duration_ms": 2.603}
+{"case_id": "EC_039", "step": "DeliveryAgent", "task_id": "EC_039-delivery-699b13ca", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_039", "step": "PolicyAgent", "task_id": "EC_039-policy-16dc9cf8", "status": "completed", "duration_ms": 5258.854, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_039", "step": "VerifierAgent", "task_id": "EC_039-verifier-65974b86", "status": "completed", "duration_ms": 0.028}
+{"case_id": "EC_040", "step": "OrderAgent", "task_id": "EC_040-order-be4be9d3", "status": "completed", "duration_ms": 1.794}
+{"case_id": "EC_040", "step": "PaymentAgent", "task_id": "EC_040-payment-151c89a7", "status": "completed", "duration_ms": 0.996}
+{"case_id": "EC_040", "step": "DeliveryAgent", "task_id": "EC_040-delivery-f2caa7f9", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_040", "step": "PolicyAgent", "task_id": "EC_040-policy-f944538a", "status": "completed", "duration_ms": 5339.992, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_040", "step": "VerifierAgent", "task_id": "EC_040-verifier-be171df6", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_041", "step": "OrderAgent", "task_id": "EC_041-order-903bd2a6", "status": "completed", "duration_ms": 1.921}
+{"case_id": "EC_041", "step": "PaymentAgent", "task_id": "EC_041-payment-4542fea0", "status": "completed", "duration_ms": 1.762}
+{"case_id": "EC_041", "step": "DeliveryAgent", "task_id": "EC_041-delivery-16f6b374", "status": "completed", "duration_ms": 0.026}
+{"case_id": "EC_041", "step": "PolicyAgent", "task_id": "EC_041-policy-a6f0ab3e", "status": "completed", "duration_ms": 3240.066, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 53.19, "votes": 10}]}
+{"case_id": "EC_041", "step": "VerifierAgent", "task_id": "EC_041-verifier-5a5bd2b5", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_042", "step": "OrderAgent", "task_id": "EC_042-order-9e9d7571", "status": "completed", "duration_ms": 4.554}
+{"case_id": "EC_042", "step": "PaymentAgent", "task_id": "EC_042-payment-fa16d381", "status": "completed", "duration_ms": 3.187}
+{"case_id": "EC_042", "step": "DeliveryAgent", "task_id": "EC_042-delivery-97c4bdae", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_042", "step": "PolicyAgent", "task_id": "EC_042-policy-9e6f2ceb", "status": "completed", "duration_ms": 8196.629, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_042", "step": "VerifierAgent", "task_id": "EC_042-verifier-47f5da4b", "status": "completed", "duration_ms": 0.028}
+{"case_id": "EC_043", "step": "OrderAgent", "task_id": "EC_043-order-b197b642", "status": "completed", "duration_ms": 2.005}
+{"case_id": "EC_043", "step": "PaymentAgent", "task_id": "EC_043-payment-ad124214", "status": "completed", "duration_ms": 1.203}
+{"case_id": "EC_043", "step": "DeliveryAgent", "task_id": "EC_043-delivery-681784a0", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_043", "step": "PolicyAgent", "task_id": "EC_043-policy-fc5ddb16", "status": "completed", "duration_ms": 3468.8, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "46dc3b2cc0980fb8ec44634e21d2718e", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_043", "step": "VerifierAgent", "task_id": "EC_043-verifier-f43ab4c1", "status": "completed", "duration_ms": 0.177}
+{"case_id": "EC_044", "step": "OrderAgent", "task_id": "EC_044-order-044dcedf", "status": "completed", "duration_ms": 7.424}
+{"case_id": "EC_044", "step": "PaymentAgent", "task_id": "EC_044-payment-e803a953", "status": "completed", "duration_ms": 3.585}
+{"case_id": "EC_044", "step": "DeliveryAgent", "task_id": "EC_044-delivery-69404fb1", "status": "completed", "duration_ms": 0.054}
+{"case_id": "EC_044", "step": "PolicyAgent", "task_id": "EC_044-policy-0d2d7c22", "status": "completed", "duration_ms": 3280.329, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 8, "vote_share": 0.8, "vote_distribution": [{"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "4a3ca9315b744ce9f8e9374361493884", "recommended_refund_brl": 0.0, "votes": 8}, {"primary_issue": "late_delivery_seller", "cause_code": "SELLER_HANDOFF_AFTER_LIMIT", "action": "refund_freight", "party_type": "seller", "party_id": "4a3ca9315b744ce9f8e9374361493884", "recommended_refund_brl": 15.1, "votes": 2}]}
+{"case_id": "EC_044", "step": "VerifierAgent", "task_id": "EC_044-verifier-04cef9aa", "status": "completed", "duration_ms": 0.104}
+{"case_id": "EC_045", "step": "OrderAgent", "task_id": "EC_045-order-a9d3d4dd", "status": "completed", "duration_ms": 8.139}
+{"case_id": "EC_045", "step": "PaymentAgent", "task_id": "EC_045-payment-a6d0c522", "status": "completed", "duration_ms": 3.615}
+{"case_id": "EC_045", "step": "DeliveryAgent", "task_id": "EC_045-delivery-c1f0b5a9", "status": "completed", "duration_ms": 0.027}
+{"case_id": "EC_045", "step": "PolicyAgent", "task_id": "EC_045-policy-54b00858", "status": "completed", "duration_ms": 4321.507, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "canceled_order_paid", "cause_code": "ORDER_CANCELED_AFTER_PAYMENT", "action": "issue_full_refund", "party_type": "platform", "party_id": "OLIST_PLATFORM", "recommended_refund_brl": 69.07, "votes": 10}]}
+{"case_id": "EC_045", "step": "VerifierAgent", "task_id": "EC_045-verifier-ff096107", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_046", "step": "OrderAgent", "task_id": "EC_046-order-5ae60d16", "status": "completed", "duration_ms": 3.539}
+{"case_id": "EC_046", "step": "PaymentAgent", "task_id": "EC_046-payment-b43e0fc2", "status": "completed", "duration_ms": 3.42}
+{"case_id": "EC_046", "step": "DeliveryAgent", "task_id": "EC_046-delivery-b263113f", "status": "completed", "duration_ms": 0.014}
+{"case_id": "EC_046", "step": "PolicyAgent", "task_id": "EC_046-policy-46c144a2", "status": "completed", "duration_ms": 4141.794, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "valid_split_payment", "cause_code": "MULTIPLE_PAYMENTS_RECONCILED", "action": "explain_valid_split_payment", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_046", "step": "VerifierAgent", "task_id": "EC_046-verifier-0aed752e", "status": "completed", "duration_ms": 0.098}
+{"case_id": "EC_047", "step": "OrderAgent", "task_id": "EC_047-order-3b098c60", "status": "completed", "duration_ms": 9.188}
+{"case_id": "EC_047", "step": "PaymentAgent", "task_id": "EC_047-payment-095edcaf", "status": "completed", "duration_ms": 3.716}
+{"case_id": "EC_047", "step": "DeliveryAgent", "task_id": "EC_047-delivery-4970bfc7", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_047", "step": "PolicyAgent", "task_id": "EC_047-policy-dbf5af9c", "status": "completed", "duration_ms": 10992.389, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_047", "step": "VerifierAgent", "task_id": "EC_047-verifier-b00fcef9", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_048", "step": "OrderAgent", "task_id": "EC_048-order-2abf399a", "status": "completed", "duration_ms": 5.707}
+{"case_id": "EC_048", "step": "PaymentAgent", "task_id": "EC_048-payment-b58fb7fc", "status": "completed", "duration_ms": 4.138}
+{"case_id": "EC_048", "step": "DeliveryAgent", "task_id": "EC_048-delivery-132690c4", "status": "completed", "duration_ms": 0.025}
+{"case_id": "EC_048", "step": "PolicyAgent", "task_id": "EC_048-policy-a633259a", "status": "completed", "duration_ms": 2947.107, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": true, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "unsupported_late_claim", "cause_code": "DELIVERY_WITHIN_ESTIMATE", "action": "reject_late_refund", "party_type": null, "party_id": null, "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_048", "step": "VerifierAgent", "task_id": "EC_048-verifier-c4b1e7a1", "status": "completed", "duration_ms": 0.085}
+{"case_id": "EC_049", "step": "OrderAgent", "task_id": "EC_049-order-76a00eaf", "status": "completed", "duration_ms": 3.899}
+{"case_id": "EC_049", "step": "PaymentAgent", "task_id": "EC_049-payment-1f2a163f", "status": "completed", "duration_ms": 3.215}
+{"case_id": "EC_049", "step": "DeliveryAgent", "task_id": "EC_049-delivery-1989d7be", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_049", "step": "PolicyAgent", "task_id": "EC_049-policy-2a1590a2", "status": "completed", "duration_ms": 3125.077, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_049", "step": "VerifierAgent", "task_id": "EC_049-verifier-04d3cda8", "status": "completed", "duration_ms": 0.101}
+{"case_id": "EC_050", "step": "OrderAgent", "task_id": "EC_050-order-75185603", "status": "completed", "duration_ms": 11.66}
+{"case_id": "EC_050", "step": "PaymentAgent", "task_id": "EC_050-payment-aab2fd7a", "status": "completed", "duration_ms": 4.892}
+{"case_id": "EC_050", "step": "DeliveryAgent", "task_id": "EC_050-delivery-d784bf2b", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_050", "step": "PolicyAgent", "task_id": "EC_050-policy-fbcb0a4f", "status": "completed", "duration_ms": 2951.941, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true, "model_fully_agreed_with_policy_engine": false, "vote_runs": 10, "winning_votes": 10, "vote_share": 1.0, "vote_distribution": [{"primary_issue": "late_delivery_logistics", "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE", "action": "refund_freight", "party_type": "logistics_provider", "party_id": "LOGISTICS_PROVIDER", "recommended_refund_brl": 0.0, "votes": 10}]}
+{"case_id": "EC_050", "step": "VerifierAgent", "task_id": "EC_050-verifier-ad31f0b7", "status": "completed", "duration_ms": 0.066}

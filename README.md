@@ -211,6 +211,10 @@ Policy Agent sử dụng model `gpt-4o-mini` với Structured Outputs. Khai báo
 `OPENAI_API_KEY` trong `.env`; tên model được cố định trong source code và
 `metadata.json`, không đặt tên model trong `.env`.
 
+Mỗi Policy Agent decision được chạy 10 lần và chọn bằng majority voting. Các lần
+gọi dùng Structured Outputs, sau đó kết quả thắng được kiểm tra lại bằng
+deterministic policy guard trước khi ghi output.
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1

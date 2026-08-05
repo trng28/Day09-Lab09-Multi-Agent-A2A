@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 from typing import Any, Literal
@@ -137,9 +139,16 @@ class PolicyAgent:
     name = "policy"
 
     MODEL = "gpt-4o-mini"
+    VOTE_RUNS = 10
+    VOTE_WORKERS = 5
 
     def __init__(self) -> None:
-        self.model = ChatOpenAI(model=self.MODEL, temperature=0).with_structured_output(
+        self.model = ChatOpenAI(
+            model=self.MODEL,
+            temperature=0.2,
+            timeout=60,
+            max_retries=3,
+        ).with_structured_output(
             PolicyDecision,
             method="json_schema",
         )
@@ -182,31 +191,82 @@ class PolicyAgent:
             "payment_matches_item_plus_freight": payment_matches,
             **delivery_result,
         }
-        model_decision = self.model.invoke(
-            [
-                (
-                    "system",
-                    "You are the EC_POLICY_V1 Policy Agent. Apply the rules in the exact "
-                    "priority order supplied by the application. Use only the provided facts. "
-                    "Never invent evidence, IDs, dates, or money values. Return one structured decision.",
-                ),
-                (
-                    "human",
-                    "Select the decision for these verified facts. The deterministic policy engine "
-                    f"expects issue={issue}, cause={cause}, party_type={party_type}, "
-                    f"party_id={party_id}, refund={money(refund)}, action={action}. Facts: {facts}",
-                ),
-            ]
+        messages = [
+            (
+                "system",
+                "You are the EC_POLICY_V1 Policy Agent. Apply these rules in exact priority order: "
+                    "(1) canceled status and payment>0 => canceled_order_paid, "
+                    "ORDER_CANCELED_AFTER_PAYMENT, platform/OLIST_PLATFORM, full payment refund, "
+                    "issue_full_refund; (2) unavailable status and payment>0 => unavailable_order_paid, "
+                    "ORDER_UNAVAILABLE_AFTER_PAYMENT, platform/OLIST_PLATFORM, full payment refund, "
+                    "issue_full_refund; (3) late and seller_late => late_delivery_seller, "
+                    "SELLER_HANDOFF_AFTER_LIMIT, responsible seller, freight refund, refund_freight; "
+                    "(4) late without seller_late => late_delivery_logistics, "
+                    "CARRIER_DELIVERED_AFTER_ESTIMATE, logistics_provider/LOGISTICS_PROVIDER, freight "
+                    "refund, refund_freight; (5) payment_count>=2 and payment reconciles => "
+                    "valid_split_payment, MULTIPLE_PAYMENTS_RECONCILED, no responsible party, zero "
+                    "refund, explain_valid_split_payment; (6) delivery within estimate and payment "
+                    "reconciles => unsupported_late_claim, DELIVERY_WITHIN_ESTIMATE, no responsible "
+                    "party, zero refund, reject_late_refund. Use only provided facts. Never invent IDs, "
+                    "dates, evidence, or money values. Return exactly one structured decision.",
+            ),
+            (
+                "human",
+                "Evaluate rules 1 through 6 in order and stop immediately at the first true "
+                    "condition. In particular, rule 5 (multiple reconciled payments) has priority "
+                    "over rule 6 (delivery within estimate). For canceled or unavailable paid "
+                    "orders, recommended_refund_brl must equal payment_total_brl even when there "
+                    "are no item rows and item_total_brl is zero. Select the highest-priority decision "
+                    f"for these verified facts: {facts}",
+            ),
+        ]
+
+        # Independent structured decisions are sampled concurrently, then reduced
+        # by deterministic majority voting. A small temperature creates useful
+        # diversity while the policy guard prevents an incorrect winner escaping.
+        with ThreadPoolExecutor(max_workers=self.VOTE_WORKERS) as executor:
+            decisions = list(executor.map(lambda _: self.model.invoke(messages), range(self.VOTE_RUNS)))
+
+        def signature(candidate: PolicyDecision) -> tuple[str, str, str, str | None, str | None, float]:
+            candidate_party_id = candidate.party_id.strip() if candidate.party_id else None
+            return (
+                candidate.primary_issue,
+                candidate.cause_code,
+                candidate.action,
+                candidate.party_type,
+                candidate_party_id,
+                money(candidate.recommended_refund_brl),
+            )
+
+        vote_counts = Counter(signature(candidate) for candidate in decisions)
+        expected_signature = (issue, cause, action, party_type, party_id, money(refund))
+        # Prefer the policy-consistent signature only when vote counts are tied.
+        winning_signature = max(
+            vote_counts,
+            key=lambda value: (vote_counts[value], value == expected_signature),
         )
+        model_decision = next(candidate for candidate in decisions if signature(candidate) == winning_signature)
+        winning_votes = vote_counts[winning_signature]
 
         # Financial values and IDs always come from the deterministic policy engine.
         # A model disagreement is recorded through lower confidence, never allowed to
         # corrupt auditable output.
-        agrees = (
+        model_party_id = model_decision.party_id.strip() if model_decision.party_id else None
+        decision_agrees = (
             model_decision.primary_issue == issue
             and model_decision.cause_code == cause
             and model_decision.action == action
         )
+        details_agree = (
+            model_decision.party_type == party_type
+            and model_party_id == party_id
+            and abs(
+                Decimal(str(model_decision.recommended_refund_brl))
+                - Decimal(str(money(refund)))
+            )
+            <= Decimal("0.01")
+        )
+        fully_agrees = decision_agrees and details_agree
         artifact = {
             "primary_issue": issue,
             "cause_code": cause,
@@ -215,9 +275,26 @@ class PolicyAgent:
             "action": action,
             # The decision is supported independently by both the model and the
             # deterministic policy engine. Keep high confidence only on agreement.
-            "confidence": min(model_decision.confidence, 0.99) if agrees else 0.75,
+            "confidence": min(model_decision.confidence, 0.99) if decision_agrees else 0.75,
             "model": self.MODEL,
-            "model_agreed_with_policy_engine": agrees,
+            "model_agreed_with_policy_engine": decision_agrees,
+            "model_fully_agreed_with_policy_engine": fully_agrees,
+            "model_decision": model_decision.model_dump(),
+            "vote_runs": self.VOTE_RUNS,
+            "winning_votes": winning_votes,
+            "vote_share": winning_votes / self.VOTE_RUNS,
+            "vote_distribution": [
+                {
+                    "primary_issue": vote[0],
+                    "cause_code": vote[1],
+                    "action": vote[2],
+                    "party_type": vote[3],
+                    "party_id": vote[4],
+                    "recommended_refund_brl": vote[5],
+                    "votes": count,
+                }
+                for vote, count in vote_counts.most_common()
+            ],
         }
         return A2AResult(task_id=task.task_id, artifact=artifact)
 
@@ -227,6 +304,10 @@ class VerifierAgent:
 
     def run(self, task: A2ATask) -> A2AResult:
         result = task.payload["result"]
+        order_result = task.context["order_result"]
+        payment_result = task.context["payment_result"]
+        delivery_result = task.context["delivery_result"]
+        policy_result = task.context["policy_result"]
         errors: list[str] = []
         limits = {
             "order_ids": 5,
@@ -250,6 +331,50 @@ class VerifierAgent:
         expected_status = "action_required" if result["financial_resolution"]["recommended_refund_brl"] > 0 else "no_action"
         if result["assessment"]["case_status"] != expected_status:
             errors.append("case_status and refund disagree")
+        if result["assessment"]["primary_issue"] != policy_result["primary_issue"]:
+            errors.append("primary_issue disagrees with Policy Agent")
+        expected_entities = {
+            "order_ids": [order_result["order"]["order_id"]],
+            "item_ids": order_result["item_ids"],
+            "seller_ids": order_result["seller_ids"],
+            "payment_ids": payment_result["payment_ids"],
+        }
+        if result["affected_entities"] != expected_entities:
+            errors.append("affected entities disagree with source artifacts")
+        expected_financial = {
+            "currency": "BRL",
+            "item_total_brl": order_result["item_total_brl"],
+            "freight_total_brl": order_result["freight_total_brl"],
+            "payment_total_brl": payment_result["payment_total_brl"],
+            "recommended_refund_brl": policy_result["recommended_refund_brl"],
+        }
+        if result["financial_resolution"] != expected_financial:
+            errors.append("financial resolution disagrees with source artifacts")
+        causes = result["root_cause_analysis"]["ranked_causes"]
+        if causes != [{"cause_code": policy_result["cause_code"], "rank": 1}]:
+            errors.append("root cause disagrees with Policy Agent")
+        if result["root_cause_analysis"]["responsible_parties"] != policy_result["responsible_parties"]:
+            errors.append("responsible parties disagree with Policy Agent")
+        if result["resolution_actions"] != [policy_result["action"]]:
+            errors.append("resolution action disagrees with Policy Agent")
+
+        evidence = set(result["evidence_ids"])
+        order_id = order_result["order"]["order_id"]
+        if f"order:{order_id}" not in evidence:
+            errors.append("missing order evidence")
+        if f"policy:{policy_result['cause_code']}" not in evidence:
+            errors.append("missing policy evidence")
+        valid_ids = {f"order:{order_id}", f"policy:{policy_result['cause_code']}"}
+        valid_ids.update(f"item:{value}" for value in order_result["item_ids"])
+        valid_ids.update(f"payment:{value}" for value in payment_result["payment_ids"])
+        valid_ids.update(f"seller:{value}" for value in order_result["seller_ids"])
+        if not evidence <= valid_ids:
+            errors.append("evidence contains IDs outside source artifacts")
+        if policy_result["primary_issue"] == "late_delivery_seller":
+            expected_sellers = set(delivery_result["late_seller_ids"])
+            submitted_sellers = {value.removeprefix("seller:") for value in evidence if value.startswith("seller:")}
+            if submitted_sellers != expected_sellers:
+                errors.append("seller evidence disagrees with late sellers")
         if errors:
             raise ValueError("Verification failed: " + "; ".join(errors))
         return A2AResult(task_id=task.task_id, artifact={"valid": True})

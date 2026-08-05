@@ -91,6 +91,13 @@ class DisputeWorkflow:
         result, trace = self._invoke(state, self.policy_agent, {}, context)
         trace[-1]["model"] = result["model"]
         trace[-1]["model_agreed_with_policy_engine"] = result["model_agreed_with_policy_engine"]
+        trace[-1]["model_fully_agreed_with_policy_engine"] = result[
+            "model_fully_agreed_with_policy_engine"
+        ]
+        trace[-1]["vote_runs"] = result["vote_runs"]
+        trace[-1]["winning_votes"] = result["winning_votes"]
+        trace[-1]["vote_share"] = result["vote_share"]
+        trace[-1]["vote_distribution"] = result["vote_distribution"]
         return {"policy_result": result, "trace": trace}
 
     def _assemble(self, state: WorkflowState) -> dict[str, Any]:
@@ -145,7 +152,18 @@ class DisputeWorkflow:
         return {"output": output}
 
     def _verify(self, state: WorkflowState) -> dict[str, Any]:
-        _, trace = self._invoke(state, self.verifier_agent, {"result": state["output"]})
+        context = {
+            "order_result": state["order_result"],
+            "payment_result": state["payment_result"],
+            "delivery_result": state["delivery_result"],
+            "policy_result": state["policy_result"],
+        }
+        _, trace = self._invoke(
+            state,
+            self.verifier_agent,
+            {"result": state["output"]},
+            context,
+        )
         return {"trace": trace}
 
     def _build_graph(self):
