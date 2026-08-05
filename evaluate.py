@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import statistics
 from collections import Counter, defaultdict
 from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
@@ -207,12 +208,37 @@ def evaluate_trace(path: Path, expected_cases: list[str]) -> dict[str, Any]:
         else:
             errors.append(f"{case_id}: expected {TRACE_STEPS}, got {steps}")
         durations.append(sum(float(event.get("duration_ms", 0)) for event in events))
+    durations_sorted = sorted(durations)
+    median_latency = statistics.median(durations) if durations else 0.0
+    p95_index = max(0, min(len(durations_sorted) - 1, int(round(len(durations_sorted) * 0.95 + 0.5)) - 1))
+    p95_latency = durations_sorted[p95_index] if durations_sorted else 0.0
     return {
         "valid": not errors,
         "workflow_completion_rate": complete / len(expected_cases),
         "event_count": sum(map(len, events_by_case.values())),
         "average_case_latency_ms": round(sum(durations) / len(durations), 3),
+        "median_case_latency_ms": round(float(median_latency), 3),
+        "p95_case_latency_ms": round(float(p95_latency), 3),
         "errors": errors,
+    }
+
+
+def summarize_case_metrics(report: dict[str, Any]) -> dict[str, Any]:
+    cases = report["cases"]
+    failed_cases = [case for case in cases if case["hard_gate_errors"]]
+    top_errors = Counter()
+    passed_scores = [case["scores"]["weighted_score"] for case in cases if not case["hard_gate_errors"]]
+    for case in cases:
+        top_errors.update(case["hard_gate_errors"])
+    return {
+        "hard_gate_pass_rate": report["passed_hard_gate"] / report["case_count"],
+        "failed_case_count": len(failed_cases),
+        "top_hard_gate_errors": top_errors.most_common(5),
+        "score_spread": {
+            "best_case": max((case["scores"]["weighted_score"] for case in cases), default=0.0),
+            "worst_case": min((case["scores"]["weighted_score"] for case in cases), default=0.0),
+            "average_passed_case": round(sum(passed_scores) / len(passed_scores) * 100, 4) if passed_scores else 0.0,
+        },
     }
 
 
@@ -238,17 +264,39 @@ def make_valid_evidence(oracle: Oracle, cases: list[dict[str, Any]]) -> set[str]
 
 
 def write_markdown(path: Path, report: dict[str, Any]) -> None:
+    trace = report["trace"]
+    summary = report["summary"]
     lines = [
         "# Evaluation Report",
         "",
         f"- Final score: **{report['final_score_percent']:.2f}/100**",
         f"- Passed hard gate: **{report['passed_hard_gate']}/{report['case_count']}**",
         f"- Trace completion: **{report['trace']['workflow_completion_rate']:.2%}**",
+        f"- Average latency: **{trace['average_case_latency_ms']:.3f} ms**",
+        f"- Median latency: **{trace['median_case_latency_ms']:.3f} ms**",
+        f"- P95 latency: **{trace['p95_case_latency_ms']:.3f} ms**",
         "",
         "| Component | Average |",
         "|---|---:|",
     ]
     lines += [f"| `{name}` | {value:.4f} |" for name, value in report["component_averages"].items()]
+    lines += [
+        "",
+        "## Summary",
+        "",
+        f"- Hard-gate pass rate: **{summary['hard_gate_pass_rate']:.2%}**",
+        f"- Failed cases: **{summary['failed_case_count']}**",
+        f"- Best case score: **{summary['score_spread']['best_case']:.4f}**",
+        f"- Worst case score: **{summary['score_spread']['worst_case']:.4f}**",
+        f"- Average passed-case score: **{summary['score_spread']['average_passed_case']:.2f}/100**",
+        "",
+        "## Issue Distribution",
+        "",
+    ]
+    lines += [f"- `{issue}`: {count}" for issue, count in report["issue_distribution"].items()] or ["None."]
+    if summary["top_hard_gate_errors"]:
+        lines += ["", "### Top hard-gate errors", ""]
+        lines += [f"- `{error}`: {count}" for error, count in summary["top_hard_gate_errors"]]
     failed = [case for case in report["cases"] if case["hard_gate_errors"]]
     lines += ["", "## Hard-gate failures", ""]
     lines += [f"- `{case['case_id']}`: {'; '.join(case['hard_gate_errors'])}" for case in failed] or ["None."]
@@ -294,6 +342,7 @@ def main() -> None:
         "trace": evaluate_trace(trace_path, EXPECTED_CASES),
         "cases": case_reports,
     }
+    report["summary"] = summarize_case_metrics(report)
     json_path = root / "evaluation_report.json"
     markdown_path = root / "evaluation_report.md"
     json_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
