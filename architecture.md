@@ -210,8 +210,8 @@ Policy Agent dùng model cố định:
 gpt-4o-mini
 temperature = 0.2
 structured output = PolicyDecision
-vote runs = 10
-parallel workers = 5
+vote runs = 3
+parallel workers = 3
 ```
 
 `PolicyDecision` giới hạn issue, root cause và action bằng enum/Literal. Prompt

@@ -139,8 +139,8 @@ class PolicyAgent:
     name = "policy"
 
     MODEL = "gpt-4o-mini"
-    VOTE_RUNS = 10
-    VOTE_WORKERS = 5
+    VOTE_RUNS = 3
+    VOTE_WORKERS = 3
 
     def __init__(self) -> None:
         self.model = ChatOpenAI(
