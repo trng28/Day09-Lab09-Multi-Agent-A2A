@@ -89,6 +89,8 @@ class DisputeWorkflow:
             "delivery_result": state["delivery_result"],
         }
         result, trace = self._invoke(state, self.policy_agent, {}, context)
+        trace[-1]["model"] = result["model"]
+        trace[-1]["model_agreed_with_policy_engine"] = result["model_agreed_with_policy_engine"]
         return {"policy_result": result, "trace": trace}
 
     def _assemble(self, state: WorkflowState) -> dict[str, Any]:
@@ -98,10 +100,18 @@ class DisputeWorkflow:
         payment = state["payment_result"]
         policy = state["policy_result"]
         cause = policy["cause_code"]
+        issue = policy["primary_issue"]
         evidence = [f"order:{order_id}"]
-        evidence.extend(f"item:{item_id}" for item_id in order["item_ids"])
+        if issue in {"late_delivery_seller", "late_delivery_logistics", "valid_split_payment", "unsupported_late_claim"}:
+            evidence.extend(f"item:{item_id}" for item_id in order["item_ids"])
         evidence.extend(f"payment:{payment_id}" for payment_id in payment["payment_ids"])
-        evidence.extend(f"seller:{seller_id}" for seller_id in order["seller_ids"])
+        if issue == "late_delivery_seller":
+            late_sellers = set(state["delivery_result"]["late_seller_ids"])
+            evidence.extend(
+                f"seller:{seller_id}"
+                for seller_id in order["seller_ids"]
+                if seller_id in late_sellers
+            )
         evidence.append(f"policy:{cause}")
         # Keep policy evidence and cap the list at the schema limit.
         evidence = evidence[:9] + [evidence[-1]] if len(evidence) > 10 else evidence

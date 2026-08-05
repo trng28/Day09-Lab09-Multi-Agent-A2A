@@ -36,8 +36,9 @@ class OlistRepository:
         return dict(self.orders[order_id])
 
     def order_items(self, order_id: str) -> list[dict[str, Any]]:
-        return [dict(row) for row in self.items.get(order_id, [])]
+        rows = sorted(self.items.get(order_id, []), key=lambda row: int(row["order_item_id"]))
+        return [dict(row) for row in rows]
 
     def order_payments(self, order_id: str) -> list[dict[str, Any]]:
-        return [dict(row) for row in self.payments.get(order_id, [])]
-
+        rows = sorted(self.payments.get(order_id, []), key=lambda row: int(row["payment_sequential"]))
+        return [dict(row) for row in rows]

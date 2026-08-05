@@ -22,9 +22,12 @@ def main() -> None:
 
     with ZipFile(ZIP_PATH, "w", compression=ZIP_DEFLATED) as archive:
         for name in EXPECTED_NAMES:
-            archive.write(OUTPUT_DIR / name, arcname=name)
+            archive.write(OUTPUT_DIR / name, arcname=f"output/{name}")
 
-    print(f"Created {ZIP_PATH} with {len(EXPECTED_NAMES)} JSON files")
+    print(
+        f"Created {ZIP_PATH} with {len(EXPECTED_NAMES)} JSON files "
+        "inside the output/ folder"
+    )
 
 
 if __name__ == "__main__":

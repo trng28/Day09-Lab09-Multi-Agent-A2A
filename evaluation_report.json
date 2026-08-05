@@ -1,0 +1,680 @@
+{
+  "case_count": 50,
+  "passed_hard_gate": 50,
+  "final_score_percent": 100.0,
+  "component_averages": {
+    "primary_issue": 1.0,
+    "affected_entities": 1.0,
+    "root_cause_analysis": 1.0,
+    "evidence_ids": 1.0,
+    "financial_resolution": 1.0,
+    "resolution_actions": 1.0
+  },
+  "issue_distribution": {
+    "late_delivery_seller": 8,
+    "unsupported_late_claim": 9,
+    "canceled_order_paid": 8,
+    "valid_split_payment": 9,
+    "unavailable_order_paid": 8,
+    "late_delivery_logistics": 8
+  },
+  "trace": {
+    "valid": true,
+    "workflow_completion_rate": 1.0,
+    "event_count": 250,
+    "average_case_latency_ms": 1374.144,
+    "errors": []
+  },
+  "cases": [
+    {
+      "case_id": "EC_001",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_002",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_003",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_004",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_005",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_006",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_007",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_008",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_009",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_010",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_011",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_012",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_013",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_014",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_015",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_016",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_017",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_018",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_019",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_020",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_021",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_022",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_023",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_024",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_025",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_026",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_027",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_028",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_029",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_030",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_031",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_032",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_033",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_034",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_035",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_036",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_037",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_038",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_039",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_040",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_041",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_042",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_043",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_044",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_045",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_046",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_047",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_048",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_049",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    },
+    {
+      "case_id": "EC_050",
+      "hard_gate_errors": [],
+      "scores": {
+        "primary_issue": 1.0,
+        "affected_entities": 1.0,
+        "root_cause_analysis": 1.0,
+        "evidence_ids": 1.0,
+        "financial_resolution": 1.0,
+        "resolution_actions": 1.0,
+        "weighted_score": 1.0
+      }
+    }
+  ]
+}
