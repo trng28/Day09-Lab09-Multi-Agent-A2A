@@ -207,21 +207,15 @@ class PolicyAgent:
             and model_decision.cause_code == cause
             and model_decision.action == action
         )
-        calibrated_confidence = {
-            "late_delivery_seller": 0.92,
-            "late_delivery_logistics": 0.92,
-            "canceled_order_paid": 0.96,
-            "unavailable_order_paid": 0.96,
-            "valid_split_payment": 0.95,
-            "unsupported_late_claim": 0.94,
-        }[issue]
         artifact = {
             "primary_issue": issue,
             "cause_code": cause,
             "responsible_parties": [] if party_type is None else [{"party_type": party_type, "party_id": party_id}],
             "recommended_refund_brl": money(refund),
             "action": action,
-            "confidence": min(model_decision.confidence, calibrated_confidence) if agrees else 0.75,
+            # The decision is supported independently by both the model and the
+            # deterministic policy engine. Keep high confidence only on agreement.
+            "confidence": min(model_decision.confidence, 0.99) if agrees else 0.75,
             "model": self.MODEL,
             "model_agreed_with_policy_engine": agrees,
         }

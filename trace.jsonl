@@ -1,250 +1,250 @@
-{"case_id": "EC_001", "step": "OrderAgent", "task_id": "EC_001-order-e54cec2b", "status": "completed", "duration_ms": 0.064}
-{"case_id": "EC_001", "step": "PaymentAgent", "task_id": "EC_001-payment-2dd6d2dc", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_001", "step": "DeliveryAgent", "task_id": "EC_001-delivery-632811c0", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_001", "step": "PolicyAgent", "task_id": "EC_001-policy-8b354bdc", "status": "completed", "duration_ms": 1923.729, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_001", "step": "VerifierAgent", "task_id": "EC_001-verifier-01e915b0", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_002", "step": "OrderAgent", "task_id": "EC_002-order-d468906c", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_002", "step": "PaymentAgent", "task_id": "EC_002-payment-ab0e78f1", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_002", "step": "DeliveryAgent", "task_id": "EC_002-delivery-661dd553", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_002", "step": "PolicyAgent", "task_id": "EC_002-policy-f562f331", "status": "completed", "duration_ms": 1323.701, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_002", "step": "VerifierAgent", "task_id": "EC_002-verifier-6ca8ae2a", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_003", "step": "OrderAgent", "task_id": "EC_003-order-c5438d8f", "status": "completed", "duration_ms": 0.072}
-{"case_id": "EC_003", "step": "PaymentAgent", "task_id": "EC_003-payment-58f9b7c9", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_003", "step": "DeliveryAgent", "task_id": "EC_003-delivery-52f76ed4", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_003", "step": "PolicyAgent", "task_id": "EC_003-policy-94159b21", "status": "completed", "duration_ms": 1324.796, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_003", "step": "VerifierAgent", "task_id": "EC_003-verifier-600323fd", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_004", "step": "OrderAgent", "task_id": "EC_004-order-9a968c5f", "status": "completed", "duration_ms": 0.128}
-{"case_id": "EC_004", "step": "PaymentAgent", "task_id": "EC_004-payment-c336c378", "status": "completed", "duration_ms": 0.051}
-{"case_id": "EC_004", "step": "DeliveryAgent", "task_id": "EC_004-delivery-9234926d", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_004", "step": "PolicyAgent", "task_id": "EC_004-policy-7f989980", "status": "completed", "duration_ms": 1275.59, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_004", "step": "VerifierAgent", "task_id": "EC_004-verifier-e5a9d026", "status": "completed", "duration_ms": 0.027}
-{"case_id": "EC_005", "step": "OrderAgent", "task_id": "EC_005-order-1a429590", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_005", "step": "PaymentAgent", "task_id": "EC_005-payment-adfbe6b2", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_005", "step": "DeliveryAgent", "task_id": "EC_005-delivery-dbe01800", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_005", "step": "PolicyAgent", "task_id": "EC_005-policy-fa2138c9", "status": "completed", "duration_ms": 1209.41, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_005", "step": "VerifierAgent", "task_id": "EC_005-verifier-b53595a0", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_006", "step": "OrderAgent", "task_id": "EC_006-order-e9fd8704", "status": "completed", "duration_ms": 0.09}
-{"case_id": "EC_006", "step": "PaymentAgent", "task_id": "EC_006-payment-3397428b", "status": "completed", "duration_ms": 0.061}
-{"case_id": "EC_006", "step": "DeliveryAgent", "task_id": "EC_006-delivery-5af337ad", "status": "completed", "duration_ms": 0.027}
-{"case_id": "EC_006", "step": "PolicyAgent", "task_id": "EC_006-policy-fd3973ca", "status": "completed", "duration_ms": 1233.373, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_006", "step": "VerifierAgent", "task_id": "EC_006-verifier-8b1ffdcf", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_007", "step": "OrderAgent", "task_id": "EC_007-order-354f0b11", "status": "completed", "duration_ms": 0.055}
-{"case_id": "EC_007", "step": "PaymentAgent", "task_id": "EC_007-payment-639ad52d", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_007", "step": "DeliveryAgent", "task_id": "EC_007-delivery-0d784c32", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_007", "step": "PolicyAgent", "task_id": "EC_007-policy-95a8c41d", "status": "completed", "duration_ms": 1257.765, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_007", "step": "VerifierAgent", "task_id": "EC_007-verifier-61a34aed", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_008", "step": "OrderAgent", "task_id": "EC_008-order-4cf323aa", "status": "completed", "duration_ms": 0.057}
-{"case_id": "EC_008", "step": "PaymentAgent", "task_id": "EC_008-payment-9b4840ef", "status": "completed", "duration_ms": 0.029}
-{"case_id": "EC_008", "step": "DeliveryAgent", "task_id": "EC_008-delivery-d3823c08", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_008", "step": "PolicyAgent", "task_id": "EC_008-policy-6068e3ae", "status": "completed", "duration_ms": 1138.423, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_008", "step": "VerifierAgent", "task_id": "EC_008-verifier-25ad0f44", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_009", "step": "OrderAgent", "task_id": "EC_009-order-0915cbaf", "status": "completed", "duration_ms": 0.104}
-{"case_id": "EC_009", "step": "PaymentAgent", "task_id": "EC_009-payment-49d8a0e3", "status": "completed", "duration_ms": 0.07}
-{"case_id": "EC_009", "step": "DeliveryAgent", "task_id": "EC_009-delivery-7d22573d", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_009", "step": "PolicyAgent", "task_id": "EC_009-policy-fc63eecd", "status": "completed", "duration_ms": 1481.942, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_009", "step": "VerifierAgent", "task_id": "EC_009-verifier-49d1362a", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_010", "step": "OrderAgent", "task_id": "EC_010-order-734c6d50", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_010", "step": "PaymentAgent", "task_id": "EC_010-payment-ba4ce17d", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_010", "step": "DeliveryAgent", "task_id": "EC_010-delivery-3471a58e", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_010", "step": "PolicyAgent", "task_id": "EC_010-policy-ffdb3f11", "status": "completed", "duration_ms": 1317.604, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_010", "step": "VerifierAgent", "task_id": "EC_010-verifier-06330fe8", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_011", "step": "OrderAgent", "task_id": "EC_011-order-14ff73e5", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_011", "step": "PaymentAgent", "task_id": "EC_011-payment-1fca6574", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_011", "step": "DeliveryAgent", "task_id": "EC_011-delivery-4f4ec311", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_011", "step": "PolicyAgent", "task_id": "EC_011-policy-3f9e3a6e", "status": "completed", "duration_ms": 1400.968, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_011", "step": "VerifierAgent", "task_id": "EC_011-verifier-6865d25e", "status": "completed", "duration_ms": 0.035}
-{"case_id": "EC_012", "step": "OrderAgent", "task_id": "EC_012-order-9bb30297", "status": "completed", "duration_ms": 0.097}
-{"case_id": "EC_012", "step": "PaymentAgent", "task_id": "EC_012-payment-e6acc2d3", "status": "completed", "duration_ms": 0.055}
-{"case_id": "EC_012", "step": "DeliveryAgent", "task_id": "EC_012-delivery-7c715293", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_012", "step": "PolicyAgent", "task_id": "EC_012-policy-68d03885", "status": "completed", "duration_ms": 1272.947, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_012", "step": "VerifierAgent", "task_id": "EC_012-verifier-a3a042bc", "status": "completed", "duration_ms": 0.04}
-{"case_id": "EC_013", "step": "OrderAgent", "task_id": "EC_013-order-96a133ea", "status": "completed", "duration_ms": 0.073}
-{"case_id": "EC_013", "step": "PaymentAgent", "task_id": "EC_013-payment-c9d9e60b", "status": "completed", "duration_ms": 0.056}
-{"case_id": "EC_013", "step": "DeliveryAgent", "task_id": "EC_013-delivery-34750f9e", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_013", "step": "PolicyAgent", "task_id": "EC_013-policy-b2fbf1e8", "status": "completed", "duration_ms": 2061.597, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_013", "step": "VerifierAgent", "task_id": "EC_013-verifier-3f5f072f", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_014", "step": "OrderAgent", "task_id": "EC_014-order-ae3201fb", "status": "completed", "duration_ms": 0.08}
-{"case_id": "EC_014", "step": "PaymentAgent", "task_id": "EC_014-payment-03de69dd", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_014", "step": "DeliveryAgent", "task_id": "EC_014-delivery-5576001f", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_014", "step": "PolicyAgent", "task_id": "EC_014-policy-1da2f99f", "status": "completed", "duration_ms": 2871.384, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_014", "step": "VerifierAgent", "task_id": "EC_014-verifier-454d278f", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_015", "step": "OrderAgent", "task_id": "EC_015-order-4d86389c", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_015", "step": "PaymentAgent", "task_id": "EC_015-payment-8efa9c96", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_015", "step": "DeliveryAgent", "task_id": "EC_015-delivery-85916c0f", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_015", "step": "PolicyAgent", "task_id": "EC_015-policy-d1fb7744", "status": "completed", "duration_ms": 1229.141, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_015", "step": "VerifierAgent", "task_id": "EC_015-verifier-ba29c27d", "status": "completed", "duration_ms": 0.035}
-{"case_id": "EC_016", "step": "OrderAgent", "task_id": "EC_016-order-cd095480", "status": "completed", "duration_ms": 0.121}
-{"case_id": "EC_016", "step": "PaymentAgent", "task_id": "EC_016-payment-a71fd721", "status": "completed", "duration_ms": 0.053}
-{"case_id": "EC_016", "step": "DeliveryAgent", "task_id": "EC_016-delivery-90aa0b51", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_016", "step": "PolicyAgent", "task_id": "EC_016-policy-fed9cb0f", "status": "completed", "duration_ms": 1241.828, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_016", "step": "VerifierAgent", "task_id": "EC_016-verifier-0bcfc58d", "status": "completed", "duration_ms": 0.013}
-{"case_id": "EC_017", "step": "OrderAgent", "task_id": "EC_017-order-078c596f", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_017", "step": "PaymentAgent", "task_id": "EC_017-payment-984e1795", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_017", "step": "DeliveryAgent", "task_id": "EC_017-delivery-d2b3d204", "status": "completed", "duration_ms": 0.019}
-{"case_id": "EC_017", "step": "PolicyAgent", "task_id": "EC_017-policy-a2dc6d5a", "status": "completed", "duration_ms": 1292.9, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_017", "step": "VerifierAgent", "task_id": "EC_017-verifier-ab5ae559", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_018", "step": "OrderAgent", "task_id": "EC_018-order-f33975fc", "status": "completed", "duration_ms": 0.053}
-{"case_id": "EC_018", "step": "PaymentAgent", "task_id": "EC_018-payment-44d9692d", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_018", "step": "DeliveryAgent", "task_id": "EC_018-delivery-d4d3600d", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_018", "step": "PolicyAgent", "task_id": "EC_018-policy-55aff596", "status": "completed", "duration_ms": 1243.815, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_018", "step": "VerifierAgent", "task_id": "EC_018-verifier-67ec4bd2", "status": "completed", "duration_ms": 0.014}
-{"case_id": "EC_019", "step": "OrderAgent", "task_id": "EC_019-order-0c7e5eab", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_019", "step": "PaymentAgent", "task_id": "EC_019-payment-27c9eb26", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_019", "step": "DeliveryAgent", "task_id": "EC_019-delivery-e6229177", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_019", "step": "PolicyAgent", "task_id": "EC_019-policy-42c803dd", "status": "completed", "duration_ms": 1183.897, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_019", "step": "VerifierAgent", "task_id": "EC_019-verifier-70b81a8b", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_020", "step": "OrderAgent", "task_id": "EC_020-order-73bdff4d", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_020", "step": "PaymentAgent", "task_id": "EC_020-payment-372d0d2b", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_020", "step": "DeliveryAgent", "task_id": "EC_020-delivery-8d2287ca", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_020", "step": "PolicyAgent", "task_id": "EC_020-policy-6b419a12", "status": "completed", "duration_ms": 1155.998, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_020", "step": "VerifierAgent", "task_id": "EC_020-verifier-7105c53d", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_021", "step": "OrderAgent", "task_id": "EC_021-order-2cf9c892", "status": "completed", "duration_ms": 0.124}
-{"case_id": "EC_021", "step": "PaymentAgent", "task_id": "EC_021-payment-9d00ba8a", "status": "completed", "duration_ms": 0.061}
-{"case_id": "EC_021", "step": "DeliveryAgent", "task_id": "EC_021-delivery-b782e3bd", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_021", "step": "PolicyAgent", "task_id": "EC_021-policy-9cdafa57", "status": "completed", "duration_ms": 1279.495, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_021", "step": "VerifierAgent", "task_id": "EC_021-verifier-7fa0a860", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_022", "step": "OrderAgent", "task_id": "EC_022-order-188606c8", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_022", "step": "PaymentAgent", "task_id": "EC_022-payment-18b0511f", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_022", "step": "DeliveryAgent", "task_id": "EC_022-delivery-11309655", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_022", "step": "PolicyAgent", "task_id": "EC_022-policy-85967472", "status": "completed", "duration_ms": 1286.862, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_022", "step": "VerifierAgent", "task_id": "EC_022-verifier-403238b6", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_023", "step": "OrderAgent", "task_id": "EC_023-order-bd3479a2", "status": "completed", "duration_ms": 0.099}
-{"case_id": "EC_023", "step": "PaymentAgent", "task_id": "EC_023-payment-13b36b53", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_023", "step": "DeliveryAgent", "task_id": "EC_023-delivery-c88e0db8", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_023", "step": "PolicyAgent", "task_id": "EC_023-policy-c8b445f2", "status": "completed", "duration_ms": 1187.6, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_023", "step": "VerifierAgent", "task_id": "EC_023-verifier-71d6abc5", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_024", "step": "OrderAgent", "task_id": "EC_024-order-16347e32", "status": "completed", "duration_ms": 0.123}
-{"case_id": "EC_024", "step": "PaymentAgent", "task_id": "EC_024-payment-fe1b8ee1", "status": "completed", "duration_ms": 0.074}
-{"case_id": "EC_024", "step": "DeliveryAgent", "task_id": "EC_024-delivery-83242de3", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_024", "step": "PolicyAgent", "task_id": "EC_024-policy-cb8f7ed9", "status": "completed", "duration_ms": 1118.766, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_024", "step": "VerifierAgent", "task_id": "EC_024-verifier-59c4aa88", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_025", "step": "OrderAgent", "task_id": "EC_025-order-c164d3bb", "status": "completed", "duration_ms": 0.146}
-{"case_id": "EC_025", "step": "PaymentAgent", "task_id": "EC_025-payment-3cac96bd", "status": "completed", "duration_ms": 0.055}
-{"case_id": "EC_025", "step": "DeliveryAgent", "task_id": "EC_025-delivery-7b9d41fe", "status": "completed", "duration_ms": 0.038}
-{"case_id": "EC_025", "step": "PolicyAgent", "task_id": "EC_025-policy-73d47fff", "status": "completed", "duration_ms": 1514.955, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_025", "step": "VerifierAgent", "task_id": "EC_025-verifier-3f0bf11c", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_026", "step": "OrderAgent", "task_id": "EC_026-order-1c435af5", "status": "completed", "duration_ms": 0.123}
-{"case_id": "EC_026", "step": "PaymentAgent", "task_id": "EC_026-payment-ca80ab28", "status": "completed", "duration_ms": 0.072}
-{"case_id": "EC_026", "step": "DeliveryAgent", "task_id": "EC_026-delivery-8db32637", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_026", "step": "PolicyAgent", "task_id": "EC_026-policy-3adef987", "status": "completed", "duration_ms": 1200.534, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_026", "step": "VerifierAgent", "task_id": "EC_026-verifier-35ceffd0", "status": "completed", "duration_ms": 0.033}
-{"case_id": "EC_027", "step": "OrderAgent", "task_id": "EC_027-order-d4cb15a8", "status": "completed", "duration_ms": 0.095}
-{"case_id": "EC_027", "step": "PaymentAgent", "task_id": "EC_027-payment-2e737dc3", "status": "completed", "duration_ms": 0.059}
-{"case_id": "EC_027", "step": "DeliveryAgent", "task_id": "EC_027-delivery-3ff9f947", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_027", "step": "PolicyAgent", "task_id": "EC_027-policy-2514990d", "status": "completed", "duration_ms": 1601.217, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_027", "step": "VerifierAgent", "task_id": "EC_027-verifier-311dec1a", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_028", "step": "OrderAgent", "task_id": "EC_028-order-d52c574c", "status": "completed", "duration_ms": 0.081}
-{"case_id": "EC_028", "step": "PaymentAgent", "task_id": "EC_028-payment-1e2e6af7", "status": "completed", "duration_ms": 0.053}
-{"case_id": "EC_028", "step": "DeliveryAgent", "task_id": "EC_028-delivery-e8ff8d42", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_028", "step": "PolicyAgent", "task_id": "EC_028-policy-0df9b35a", "status": "completed", "duration_ms": 1211.553, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_028", "step": "VerifierAgent", "task_id": "EC_028-verifier-c71f4b57", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_029", "step": "OrderAgent", "task_id": "EC_029-order-d5919da5", "status": "completed", "duration_ms": 0.047}
-{"case_id": "EC_029", "step": "PaymentAgent", "task_id": "EC_029-payment-022268cf", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_029", "step": "DeliveryAgent", "task_id": "EC_029-delivery-fd7cf96c", "status": "completed", "duration_ms": 0.017}
-{"case_id": "EC_029", "step": "PolicyAgent", "task_id": "EC_029-policy-f066465a", "status": "completed", "duration_ms": 1287.197, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_029", "step": "VerifierAgent", "task_id": "EC_029-verifier-4f111bcd", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_030", "step": "OrderAgent", "task_id": "EC_030-order-0f06de44", "status": "completed", "duration_ms": 0.04}
-{"case_id": "EC_030", "step": "PaymentAgent", "task_id": "EC_030-payment-cff9f92c", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_030", "step": "DeliveryAgent", "task_id": "EC_030-delivery-17c1e5d7", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_030", "step": "PolicyAgent", "task_id": "EC_030-policy-a61830c0", "status": "completed", "duration_ms": 1510.287, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_030", "step": "VerifierAgent", "task_id": "EC_030-verifier-99055c7b", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_031", "step": "OrderAgent", "task_id": "EC_031-order-e48ae106", "status": "completed", "duration_ms": 0.117}
-{"case_id": "EC_031", "step": "PaymentAgent", "task_id": "EC_031-payment-cf2c8541", "status": "completed", "duration_ms": 0.057}
-{"case_id": "EC_031", "step": "DeliveryAgent", "task_id": "EC_031-delivery-1f0bb8fb", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_031", "step": "PolicyAgent", "task_id": "EC_031-policy-044417bd", "status": "completed", "duration_ms": 1229.994, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_031", "step": "VerifierAgent", "task_id": "EC_031-verifier-b444eb0c", "status": "completed", "duration_ms": 0.035}
-{"case_id": "EC_032", "step": "OrderAgent", "task_id": "EC_032-order-e2c8249b", "status": "completed", "duration_ms": 0.104}
-{"case_id": "EC_032", "step": "PaymentAgent", "task_id": "EC_032-payment-cf575745", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_032", "step": "DeliveryAgent", "task_id": "EC_032-delivery-bb75eed8", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_032", "step": "PolicyAgent", "task_id": "EC_032-policy-78f05f67", "status": "completed", "duration_ms": 1156.873, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_032", "step": "VerifierAgent", "task_id": "EC_032-verifier-8d075f6a", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_033", "step": "OrderAgent", "task_id": "EC_033-order-421264ef", "status": "completed", "duration_ms": 0.06}
-{"case_id": "EC_033", "step": "PaymentAgent", "task_id": "EC_033-payment-ce619b05", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_033", "step": "DeliveryAgent", "task_id": "EC_033-delivery-3218eb17", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_033", "step": "PolicyAgent", "task_id": "EC_033-policy-e0f8d2a3", "status": "completed", "duration_ms": 1488.117, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_033", "step": "VerifierAgent", "task_id": "EC_033-verifier-0d12ae46", "status": "completed", "duration_ms": 0.068}
-{"case_id": "EC_034", "step": "OrderAgent", "task_id": "EC_034-order-e6882dac", "status": "completed", "duration_ms": 0.118}
-{"case_id": "EC_034", "step": "PaymentAgent", "task_id": "EC_034-payment-8aa6c6de", "status": "completed", "duration_ms": 0.054}
-{"case_id": "EC_034", "step": "DeliveryAgent", "task_id": "EC_034-delivery-475de6d3", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_034", "step": "PolicyAgent", "task_id": "EC_034-policy-123e877b", "status": "completed", "duration_ms": 1411.774, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_034", "step": "VerifierAgent", "task_id": "EC_034-verifier-b29ded0d", "status": "completed", "duration_ms": 0.065}
-{"case_id": "EC_035", "step": "OrderAgent", "task_id": "EC_035-order-b2c3897f", "status": "completed", "duration_ms": 0.194}
-{"case_id": "EC_035", "step": "PaymentAgent", "task_id": "EC_035-payment-5f54e459", "status": "completed", "duration_ms": 0.082}
-{"case_id": "EC_035", "step": "DeliveryAgent", "task_id": "EC_035-delivery-37968e36", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_035", "step": "PolicyAgent", "task_id": "EC_035-policy-7ee09ae5", "status": "completed", "duration_ms": 1373.078, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_035", "step": "VerifierAgent", "task_id": "EC_035-verifier-723a5a1b", "status": "completed", "duration_ms": 0.018}
-{"case_id": "EC_036", "step": "OrderAgent", "task_id": "EC_036-order-6d24e525", "status": "completed", "duration_ms": 0.054}
-{"case_id": "EC_036", "step": "PaymentAgent", "task_id": "EC_036-payment-6831bb5d", "status": "completed", "duration_ms": 0.065}
-{"case_id": "EC_036", "step": "DeliveryAgent", "task_id": "EC_036-delivery-3972984f", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_036", "step": "PolicyAgent", "task_id": "EC_036-policy-aedcab2f", "status": "completed", "duration_ms": 1153.074, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_036", "step": "VerifierAgent", "task_id": "EC_036-verifier-15adbbf6", "status": "completed", "duration_ms": 0.026}
-{"case_id": "EC_037", "step": "OrderAgent", "task_id": "EC_037-order-5c4ec657", "status": "completed", "duration_ms": 0.113}
-{"case_id": "EC_037", "step": "PaymentAgent", "task_id": "EC_037-payment-55a1ee2a", "status": "completed", "duration_ms": 0.058}
-{"case_id": "EC_037", "step": "DeliveryAgent", "task_id": "EC_037-delivery-2f4eb76d", "status": "completed", "duration_ms": 0.044}
-{"case_id": "EC_037", "step": "PolicyAgent", "task_id": "EC_037-policy-e7583a5a", "status": "completed", "duration_ms": 1342.124, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_037", "step": "VerifierAgent", "task_id": "EC_037-verifier-b1416537", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_038", "step": "OrderAgent", "task_id": "EC_038-order-671be2d4", "status": "completed", "duration_ms": 0.153}
-{"case_id": "EC_038", "step": "PaymentAgent", "task_id": "EC_038-payment-571ad1f7", "status": "completed", "duration_ms": 0.077}
-{"case_id": "EC_038", "step": "DeliveryAgent", "task_id": "EC_038-delivery-f40bc52a", "status": "completed", "duration_ms": 0.034}
-{"case_id": "EC_038", "step": "PolicyAgent", "task_id": "EC_038-policy-9469af9c", "status": "completed", "duration_ms": 1442.522, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_038", "step": "VerifierAgent", "task_id": "EC_038-verifier-9f8019f5", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_039", "step": "OrderAgent", "task_id": "EC_039-order-73d9a93e", "status": "completed", "duration_ms": 0.042}
-{"case_id": "EC_039", "step": "PaymentAgent", "task_id": "EC_039-payment-74ba231b", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_039", "step": "DeliveryAgent", "task_id": "EC_039-delivery-f34c2f69", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_039", "step": "PolicyAgent", "task_id": "EC_039-policy-bd1aca78", "status": "completed", "duration_ms": 1187.554, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_039", "step": "VerifierAgent", "task_id": "EC_039-verifier-5019228f", "status": "completed", "duration_ms": 0.025}
-{"case_id": "EC_040", "step": "OrderAgent", "task_id": "EC_040-order-499a216a", "status": "completed", "duration_ms": 0.052}
-{"case_id": "EC_040", "step": "PaymentAgent", "task_id": "EC_040-payment-8d5792eb", "status": "completed", "duration_ms": 0.03}
-{"case_id": "EC_040", "step": "DeliveryAgent", "task_id": "EC_040-delivery-384752d2", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_040", "step": "PolicyAgent", "task_id": "EC_040-policy-e23bb565", "status": "completed", "duration_ms": 1576.949, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_040", "step": "VerifierAgent", "task_id": "EC_040-verifier-4f7a09e4", "status": "completed", "duration_ms": 0.016}
-{"case_id": "EC_041", "step": "OrderAgent", "task_id": "EC_041-order-a5887b01", "status": "completed", "duration_ms": 0.059}
-{"case_id": "EC_041", "step": "PaymentAgent", "task_id": "EC_041-payment-0b4741f1", "status": "completed", "duration_ms": 0.022}
-{"case_id": "EC_041", "step": "DeliveryAgent", "task_id": "EC_041-delivery-db048bc5", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_041", "step": "PolicyAgent", "task_id": "EC_041-policy-a4cfe92f", "status": "completed", "duration_ms": 1797.524, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_041", "step": "VerifierAgent", "task_id": "EC_041-verifier-62fed8d8", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_042", "step": "OrderAgent", "task_id": "EC_042-order-c9f0e787", "status": "completed", "duration_ms": 0.039}
-{"case_id": "EC_042", "step": "PaymentAgent", "task_id": "EC_042-payment-c491c6f6", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_042", "step": "DeliveryAgent", "task_id": "EC_042-delivery-bedffbb4", "status": "completed", "duration_ms": 0.05}
-{"case_id": "EC_042", "step": "PolicyAgent", "task_id": "EC_042-policy-746dfc8f", "status": "completed", "duration_ms": 1242.617, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_042", "step": "VerifierAgent", "task_id": "EC_042-verifier-2e2b9c52", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_043", "step": "OrderAgent", "task_id": "EC_043-order-1de2acbb", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_043", "step": "PaymentAgent", "task_id": "EC_043-payment-680122c5", "status": "completed", "duration_ms": 0.021}
-{"case_id": "EC_043", "step": "DeliveryAgent", "task_id": "EC_043-delivery-583bd278", "status": "completed", "duration_ms": 0.014}
-{"case_id": "EC_043", "step": "PolicyAgent", "task_id": "EC_043-policy-c93794b0", "status": "completed", "duration_ms": 1391.738, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_043", "step": "VerifierAgent", "task_id": "EC_043-verifier-cefefff5", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_044", "step": "OrderAgent", "task_id": "EC_044-order-790f8996", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_044", "step": "PaymentAgent", "task_id": "EC_044-payment-61cf4007", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_044", "step": "DeliveryAgent", "task_id": "EC_044-delivery-82aef126", "status": "completed", "duration_ms": 0.015}
-{"case_id": "EC_044", "step": "PolicyAgent", "task_id": "EC_044-policy-8fccfdca", "status": "completed", "duration_ms": 1775.65, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_044", "step": "VerifierAgent", "task_id": "EC_044-verifier-714786a2", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_045", "step": "OrderAgent", "task_id": "EC_045-order-25f299c2", "status": "completed", "duration_ms": 0.041}
-{"case_id": "EC_045", "step": "PaymentAgent", "task_id": "EC_045-payment-9767bc5c", "status": "completed", "duration_ms": 0.02}
-{"case_id": "EC_045", "step": "DeliveryAgent", "task_id": "EC_045-delivery-d77ebad5", "status": "completed", "duration_ms": 0.011}
-{"case_id": "EC_045", "step": "PolicyAgent", "task_id": "EC_045-policy-00f3fc59", "status": "completed", "duration_ms": 1161.574, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_045", "step": "VerifierAgent", "task_id": "EC_045-verifier-a861dd89", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_046", "step": "OrderAgent", "task_id": "EC_046-order-5b090bd8", "status": "completed", "duration_ms": 0.04}
-{"case_id": "EC_046", "step": "PaymentAgent", "task_id": "EC_046-payment-cc2c9f81", "status": "completed", "duration_ms": 0.024}
-{"case_id": "EC_046", "step": "DeliveryAgent", "task_id": "EC_046-delivery-703e9475", "status": "completed", "duration_ms": 0.01}
-{"case_id": "EC_046", "step": "PolicyAgent", "task_id": "EC_046-policy-f09d15b3", "status": "completed", "duration_ms": 1600.691, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_046", "step": "VerifierAgent", "task_id": "EC_046-verifier-052ce2b3", "status": "completed", "duration_ms": 0.009}
-{"case_id": "EC_047", "step": "OrderAgent", "task_id": "EC_047-order-e5baac9a", "status": "completed", "duration_ms": 0.085}
-{"case_id": "EC_047", "step": "PaymentAgent", "task_id": "EC_047-payment-45cc6506", "status": "completed", "duration_ms": 0.036}
-{"case_id": "EC_047", "step": "DeliveryAgent", "task_id": "EC_047-delivery-b7666365", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_047", "step": "PolicyAgent", "task_id": "EC_047-policy-27a96b73", "status": "completed", "duration_ms": 1140.448, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_047", "step": "VerifierAgent", "task_id": "EC_047-verifier-2b176b34", "status": "completed", "duration_ms": 0.012}
-{"case_id": "EC_048", "step": "OrderAgent", "task_id": "EC_048-order-823786b3", "status": "completed", "duration_ms": 0.049}
-{"case_id": "EC_048", "step": "PaymentAgent", "task_id": "EC_048-payment-b5f8e164", "status": "completed", "duration_ms": 0.028}
-{"case_id": "EC_048", "step": "DeliveryAgent", "task_id": "EC_048-delivery-682d19f5", "status": "completed", "duration_ms": 0.023}
-{"case_id": "EC_048", "step": "PolicyAgent", "task_id": "EC_048-policy-11ab14ed", "status": "completed", "duration_ms": 1143.563, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_048", "step": "VerifierAgent", "task_id": "EC_048-verifier-1071f857", "status": "completed", "duration_ms": 0.055}
-{"case_id": "EC_049", "step": "OrderAgent", "task_id": "EC_049-order-afcbdce3", "status": "completed", "duration_ms": 0.114}
-{"case_id": "EC_049", "step": "PaymentAgent", "task_id": "EC_049-payment-1d80f788", "status": "completed", "duration_ms": 0.097}
-{"case_id": "EC_049", "step": "DeliveryAgent", "task_id": "EC_049-delivery-8b151607", "status": "completed", "duration_ms": 0.045}
-{"case_id": "EC_049", "step": "PolicyAgent", "task_id": "EC_049-policy-7d2cc6c4", "status": "completed", "duration_ms": 1256.829, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_049", "step": "VerifierAgent", "task_id": "EC_049-verifier-610b1e95", "status": "completed", "duration_ms": 0.037}
-{"case_id": "EC_050", "step": "OrderAgent", "task_id": "EC_050-order-f8559bf3", "status": "completed", "duration_ms": 0.14}
-{"case_id": "EC_050", "step": "PaymentAgent", "task_id": "EC_050-payment-73530981", "status": "completed", "duration_ms": 0.085}
-{"case_id": "EC_050", "step": "DeliveryAgent", "task_id": "EC_050-delivery-e9d6164b", "status": "completed", "duration_ms": 0.062}
-{"case_id": "EC_050", "step": "PolicyAgent", "task_id": "EC_050-policy-710495ed", "status": "completed", "duration_ms": 1186.784, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
-{"case_id": "EC_050", "step": "VerifierAgent", "task_id": "EC_050-verifier-cc98d724", "status": "completed", "duration_ms": 0.041}
+{"case_id": "EC_001", "step": "OrderAgent", "task_id": "EC_001-order-be749ee3", "status": "completed", "duration_ms": 0.051}
+{"case_id": "EC_001", "step": "PaymentAgent", "task_id": "EC_001-payment-6ca425a4", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_001", "step": "DeliveryAgent", "task_id": "EC_001-delivery-5c9b7a83", "status": "completed", "duration_ms": 0.018}
+{"case_id": "EC_001", "step": "PolicyAgent", "task_id": "EC_001-policy-6d80bf47", "status": "completed", "duration_ms": 2694.48, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_001", "step": "VerifierAgent", "task_id": "EC_001-verifier-71606959", "status": "completed", "duration_ms": 0.014}
+{"case_id": "EC_002", "step": "OrderAgent", "task_id": "EC_002-order-618fbefc", "status": "completed", "duration_ms": 0.048}
+{"case_id": "EC_002", "step": "PaymentAgent", "task_id": "EC_002-payment-cd2145ef", "status": "completed", "duration_ms": 0.026}
+{"case_id": "EC_002", "step": "DeliveryAgent", "task_id": "EC_002-delivery-5ca42410", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_002", "step": "PolicyAgent", "task_id": "EC_002-policy-5f296298", "status": "completed", "duration_ms": 1169.677, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_002", "step": "VerifierAgent", "task_id": "EC_002-verifier-65156f07", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_003", "step": "OrderAgent", "task_id": "EC_003-order-ecd22072", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_003", "step": "PaymentAgent", "task_id": "EC_003-payment-f75eb98a", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_003", "step": "DeliveryAgent", "task_id": "EC_003-delivery-efb97fa5", "status": "completed", "duration_ms": 0.013}
+{"case_id": "EC_003", "step": "PolicyAgent", "task_id": "EC_003-policy-b44ea2b2", "status": "completed", "duration_ms": 1348.974, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_003", "step": "VerifierAgent", "task_id": "EC_003-verifier-0839d9c0", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_004", "step": "OrderAgent", "task_id": "EC_004-order-fe652600", "status": "completed", "duration_ms": 0.071}
+{"case_id": "EC_004", "step": "PaymentAgent", "task_id": "EC_004-payment-38ff4b89", "status": "completed", "duration_ms": 0.048}
+{"case_id": "EC_004", "step": "DeliveryAgent", "task_id": "EC_004-delivery-a13b3c43", "status": "completed", "duration_ms": 0.026}
+{"case_id": "EC_004", "step": "PolicyAgent", "task_id": "EC_004-policy-df41e544", "status": "completed", "duration_ms": 1092.45, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_004", "step": "VerifierAgent", "task_id": "EC_004-verifier-76c5e57c", "status": "completed", "duration_ms": 0.028}
+{"case_id": "EC_005", "step": "OrderAgent", "task_id": "EC_005-order-69b8def2", "status": "completed", "duration_ms": 0.058}
+{"case_id": "EC_005", "step": "PaymentAgent", "task_id": "EC_005-payment-3010412d", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_005", "step": "DeliveryAgent", "task_id": "EC_005-delivery-4818a640", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_005", "step": "PolicyAgent", "task_id": "EC_005-policy-7d9fa603", "status": "completed", "duration_ms": 1359.16, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_005", "step": "VerifierAgent", "task_id": "EC_005-verifier-833f25f2", "status": "completed", "duration_ms": 0.028}
+{"case_id": "EC_006", "step": "OrderAgent", "task_id": "EC_006-order-38c2cdcc", "status": "completed", "duration_ms": 0.073}
+{"case_id": "EC_006", "step": "PaymentAgent", "task_id": "EC_006-payment-c6dc138b", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_006", "step": "DeliveryAgent", "task_id": "EC_006-delivery-9ba131d6", "status": "completed", "duration_ms": 0.026}
+{"case_id": "EC_006", "step": "PolicyAgent", "task_id": "EC_006-policy-f0f60a8b", "status": "completed", "duration_ms": 1196.891, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_006", "step": "VerifierAgent", "task_id": "EC_006-verifier-6deb8322", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_007", "step": "OrderAgent", "task_id": "EC_007-order-86a71d7a", "status": "completed", "duration_ms": 0.08}
+{"case_id": "EC_007", "step": "PaymentAgent", "task_id": "EC_007-payment-96d5152e", "status": "completed", "duration_ms": 0.051}
+{"case_id": "EC_007", "step": "DeliveryAgent", "task_id": "EC_007-delivery-00d716d9", "status": "completed", "duration_ms": 0.027}
+{"case_id": "EC_007", "step": "PolicyAgent", "task_id": "EC_007-policy-795f7afe", "status": "completed", "duration_ms": 1228.445, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_007", "step": "VerifierAgent", "task_id": "EC_007-verifier-3069abba", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_008", "step": "OrderAgent", "task_id": "EC_008-order-ad17cdc8", "status": "completed", "duration_ms": 0.063}
+{"case_id": "EC_008", "step": "PaymentAgent", "task_id": "EC_008-payment-880b9ebc", "status": "completed", "duration_ms": 0.036}
+{"case_id": "EC_008", "step": "DeliveryAgent", "task_id": "EC_008-delivery-a25b351c", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_008", "step": "PolicyAgent", "task_id": "EC_008-policy-54fc2db6", "status": "completed", "duration_ms": 2590.401, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_008", "step": "VerifierAgent", "task_id": "EC_008-verifier-218459b8", "status": "completed", "duration_ms": 0.049}
+{"case_id": "EC_009", "step": "OrderAgent", "task_id": "EC_009-order-20d4a316", "status": "completed", "duration_ms": 0.078}
+{"case_id": "EC_009", "step": "PaymentAgent", "task_id": "EC_009-payment-e60a2d44", "status": "completed", "duration_ms": 0.049}
+{"case_id": "EC_009", "step": "DeliveryAgent", "task_id": "EC_009-delivery-030ad5c9", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_009", "step": "PolicyAgent", "task_id": "EC_009-policy-cee3cfa7", "status": "completed", "duration_ms": 1379.109, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_009", "step": "VerifierAgent", "task_id": "EC_009-verifier-e50a2b62", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_010", "step": "OrderAgent", "task_id": "EC_010-order-4bf10bad", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_010", "step": "PaymentAgent", "task_id": "EC_010-payment-8b4316c3", "status": "completed", "duration_ms": 0.018}
+{"case_id": "EC_010", "step": "DeliveryAgent", "task_id": "EC_010-delivery-6e289671", "status": "completed", "duration_ms": 0.014}
+{"case_id": "EC_010", "step": "PolicyAgent", "task_id": "EC_010-policy-489796e7", "status": "completed", "duration_ms": 1449.27, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_010", "step": "VerifierAgent", "task_id": "EC_010-verifier-05888493", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_011", "step": "OrderAgent", "task_id": "EC_011-order-1398cb26", "status": "completed", "duration_ms": 0.056}
+{"case_id": "EC_011", "step": "PaymentAgent", "task_id": "EC_011-payment-bcd85728", "status": "completed", "duration_ms": 0.035}
+{"case_id": "EC_011", "step": "DeliveryAgent", "task_id": "EC_011-delivery-90044389", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_011", "step": "PolicyAgent", "task_id": "EC_011-policy-dfb32f5d", "status": "completed", "duration_ms": 1312.183, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_011", "step": "VerifierAgent", "task_id": "EC_011-verifier-34e0d722", "status": "completed", "duration_ms": 0.044}
+{"case_id": "EC_012", "step": "OrderAgent", "task_id": "EC_012-order-6efa61f0", "status": "completed", "duration_ms": 0.182}
+{"case_id": "EC_012", "step": "PaymentAgent", "task_id": "EC_012-payment-989990f6", "status": "completed", "duration_ms": 0.092}
+{"case_id": "EC_012", "step": "DeliveryAgent", "task_id": "EC_012-delivery-3766a1a4", "status": "completed", "duration_ms": 0.07}
+{"case_id": "EC_012", "step": "PolicyAgent", "task_id": "EC_012-policy-193d20ca", "status": "completed", "duration_ms": 1298.793, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_012", "step": "VerifierAgent", "task_id": "EC_012-verifier-494e4b18", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_013", "step": "OrderAgent", "task_id": "EC_013-order-4d07f145", "status": "completed", "duration_ms": 0.106}
+{"case_id": "EC_013", "step": "PaymentAgent", "task_id": "EC_013-payment-de692f43", "status": "completed", "duration_ms": 0.083}
+{"case_id": "EC_013", "step": "DeliveryAgent", "task_id": "EC_013-delivery-83acfa49", "status": "completed", "duration_ms": 0.042}
+{"case_id": "EC_013", "step": "PolicyAgent", "task_id": "EC_013-policy-c2a90a0f", "status": "completed", "duration_ms": 1262.166, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_013", "step": "VerifierAgent", "task_id": "EC_013-verifier-a0ec5a83", "status": "completed", "duration_ms": 0.044}
+{"case_id": "EC_014", "step": "OrderAgent", "task_id": "EC_014-order-1b0aae3b", "status": "completed", "duration_ms": 0.172}
+{"case_id": "EC_014", "step": "PaymentAgent", "task_id": "EC_014-payment-5169116b", "status": "completed", "duration_ms": 0.103}
+{"case_id": "EC_014", "step": "DeliveryAgent", "task_id": "EC_014-delivery-30f988cf", "status": "completed", "duration_ms": 0.056}
+{"case_id": "EC_014", "step": "PolicyAgent", "task_id": "EC_014-policy-01b487d6", "status": "completed", "duration_ms": 1235.314, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_014", "step": "VerifierAgent", "task_id": "EC_014-verifier-3ade70f9", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_015", "step": "OrderAgent", "task_id": "EC_015-order-a4ea06b1", "status": "completed", "duration_ms": 0.054}
+{"case_id": "EC_015", "step": "PaymentAgent", "task_id": "EC_015-payment-554d1a52", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_015", "step": "DeliveryAgent", "task_id": "EC_015-delivery-b875dec8", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_015", "step": "PolicyAgent", "task_id": "EC_015-policy-1bf19f38", "status": "completed", "duration_ms": 1224.859, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_015", "step": "VerifierAgent", "task_id": "EC_015-verifier-17e57b69", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_016", "step": "OrderAgent", "task_id": "EC_016-order-c10b2ea8", "status": "completed", "duration_ms": 0.132}
+{"case_id": "EC_016", "step": "PaymentAgent", "task_id": "EC_016-payment-46bf5a97", "status": "completed", "duration_ms": 0.095}
+{"case_id": "EC_016", "step": "DeliveryAgent", "task_id": "EC_016-delivery-fc99b690", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_016", "step": "PolicyAgent", "task_id": "EC_016-policy-fcf9cdb5", "status": "completed", "duration_ms": 1178.906, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_016", "step": "VerifierAgent", "task_id": "EC_016-verifier-3dfba28d", "status": "completed", "duration_ms": 0.042}
+{"case_id": "EC_017", "step": "OrderAgent", "task_id": "EC_017-order-7596d926", "status": "completed", "duration_ms": 0.178}
+{"case_id": "EC_017", "step": "PaymentAgent", "task_id": "EC_017-payment-16990b32", "status": "completed", "duration_ms": 0.116}
+{"case_id": "EC_017", "step": "DeliveryAgent", "task_id": "EC_017-delivery-5cc2881f", "status": "completed", "duration_ms": 0.069}
+{"case_id": "EC_017", "step": "PolicyAgent", "task_id": "EC_017-policy-dc48761f", "status": "completed", "duration_ms": 1316.553, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_017", "step": "VerifierAgent", "task_id": "EC_017-verifier-1b4a9c25", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_018", "step": "OrderAgent", "task_id": "EC_018-order-114d1724", "status": "completed", "duration_ms": 0.034}
+{"case_id": "EC_018", "step": "PaymentAgent", "task_id": "EC_018-payment-0bb05320", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_018", "step": "DeliveryAgent", "task_id": "EC_018-delivery-9a798d5f", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_018", "step": "PolicyAgent", "task_id": "EC_018-policy-5d92be0c", "status": "completed", "duration_ms": 1171.81, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_018", "step": "VerifierAgent", "task_id": "EC_018-verifier-1c926585", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_019", "step": "OrderAgent", "task_id": "EC_019-order-222e3f64", "status": "completed", "duration_ms": 0.106}
+{"case_id": "EC_019", "step": "PaymentAgent", "task_id": "EC_019-payment-c2ffc66b", "status": "completed", "duration_ms": 0.084}
+{"case_id": "EC_019", "step": "DeliveryAgent", "task_id": "EC_019-delivery-e5eee4ac", "status": "completed", "duration_ms": 0.042}
+{"case_id": "EC_019", "step": "PolicyAgent", "task_id": "EC_019-policy-96708fed", "status": "completed", "duration_ms": 1581.289, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_019", "step": "VerifierAgent", "task_id": "EC_019-verifier-28beb73a", "status": "completed", "duration_ms": 0.042}
+{"case_id": "EC_020", "step": "OrderAgent", "task_id": "EC_020-order-34a2bc12", "status": "completed", "duration_ms": 0.138}
+{"case_id": "EC_020", "step": "PaymentAgent", "task_id": "EC_020-payment-3df72e77", "status": "completed", "duration_ms": 0.096}
+{"case_id": "EC_020", "step": "DeliveryAgent", "task_id": "EC_020-delivery-98027558", "status": "completed", "duration_ms": 0.045}
+{"case_id": "EC_020", "step": "PolicyAgent", "task_id": "EC_020-policy-2683bcfe", "status": "completed", "duration_ms": 1378.218, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_020", "step": "VerifierAgent", "task_id": "EC_020-verifier-529a9735", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_021", "step": "OrderAgent", "task_id": "EC_021-order-bea31bed", "status": "completed", "duration_ms": 0.144}
+{"case_id": "EC_021", "step": "PaymentAgent", "task_id": "EC_021-payment-6de7a6e8", "status": "completed", "duration_ms": 0.084}
+{"case_id": "EC_021", "step": "DeliveryAgent", "task_id": "EC_021-delivery-be02b405", "status": "completed", "duration_ms": 0.043}
+{"case_id": "EC_021", "step": "PolicyAgent", "task_id": "EC_021-policy-e2a4d741", "status": "completed", "duration_ms": 1432.013, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_021", "step": "VerifierAgent", "task_id": "EC_021-verifier-88d44d29", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_022", "step": "OrderAgent", "task_id": "EC_022-order-928fbde9", "status": "completed", "duration_ms": 0.036}
+{"case_id": "EC_022", "step": "PaymentAgent", "task_id": "EC_022-payment-1ccb961c", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_022", "step": "DeliveryAgent", "task_id": "EC_022-delivery-56ba1ad2", "status": "completed", "duration_ms": 0.014}
+{"case_id": "EC_022", "step": "PolicyAgent", "task_id": "EC_022-policy-d72ec471", "status": "completed", "duration_ms": 2018.005, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_022", "step": "VerifierAgent", "task_id": "EC_022-verifier-3566a4b5", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_023", "step": "OrderAgent", "task_id": "EC_023-order-371d85b5", "status": "completed", "duration_ms": 0.051}
+{"case_id": "EC_023", "step": "PaymentAgent", "task_id": "EC_023-payment-46f2641f", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_023", "step": "DeliveryAgent", "task_id": "EC_023-delivery-b41ff66a", "status": "completed", "duration_ms": 0.018}
+{"case_id": "EC_023", "step": "PolicyAgent", "task_id": "EC_023-policy-b0fb8ab3", "status": "completed", "duration_ms": 1483.987, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_023", "step": "VerifierAgent", "task_id": "EC_023-verifier-4add4d42", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_024", "step": "OrderAgent", "task_id": "EC_024-order-5c144f9c", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_024", "step": "PaymentAgent", "task_id": "EC_024-payment-3b97e8bc", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_024", "step": "DeliveryAgent", "task_id": "EC_024-delivery-6b7e5d20", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_024", "step": "PolicyAgent", "task_id": "EC_024-policy-c6217286", "status": "completed", "duration_ms": 1372.037, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_024", "step": "VerifierAgent", "task_id": "EC_024-verifier-5fae4bb1", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_025", "step": "OrderAgent", "task_id": "EC_025-order-5cc5420b", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_025", "step": "PaymentAgent", "task_id": "EC_025-payment-e2b454cf", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_025", "step": "DeliveryAgent", "task_id": "EC_025-delivery-4e69181e", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_025", "step": "PolicyAgent", "task_id": "EC_025-policy-2ae285bb", "status": "completed", "duration_ms": 1256.194, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_025", "step": "VerifierAgent", "task_id": "EC_025-verifier-a2fb44da", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_026", "step": "OrderAgent", "task_id": "EC_026-order-3c673dc7", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_026", "step": "PaymentAgent", "task_id": "EC_026-payment-1acff471", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_026", "step": "DeliveryAgent", "task_id": "EC_026-delivery-a9ca2e30", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_026", "step": "PolicyAgent", "task_id": "EC_026-policy-7dcb46ef", "status": "completed", "duration_ms": 1261.642, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_026", "step": "VerifierAgent", "task_id": "EC_026-verifier-686e3878", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_027", "step": "OrderAgent", "task_id": "EC_027-order-06b498f6", "status": "completed", "duration_ms": 0.043}
+{"case_id": "EC_027", "step": "PaymentAgent", "task_id": "EC_027-payment-b2e98883", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_027", "step": "DeliveryAgent", "task_id": "EC_027-delivery-046b5a85", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_027", "step": "PolicyAgent", "task_id": "EC_027-policy-cf500088", "status": "completed", "duration_ms": 1815.714, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_027", "step": "VerifierAgent", "task_id": "EC_027-verifier-5798f3f9", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_028", "step": "OrderAgent", "task_id": "EC_028-order-2331aa48", "status": "completed", "duration_ms": 0.092}
+{"case_id": "EC_028", "step": "PaymentAgent", "task_id": "EC_028-payment-053b70ab", "status": "completed", "duration_ms": 0.082}
+{"case_id": "EC_028", "step": "DeliveryAgent", "task_id": "EC_028-delivery-e81fc882", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_028", "step": "PolicyAgent", "task_id": "EC_028-policy-689be4cd", "status": "completed", "duration_ms": 1275.964, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_028", "step": "VerifierAgent", "task_id": "EC_028-verifier-c0de1442", "status": "completed", "duration_ms": 0.029}
+{"case_id": "EC_029", "step": "OrderAgent", "task_id": "EC_029-order-3026e9de", "status": "completed", "duration_ms": 0.087}
+{"case_id": "EC_029", "step": "PaymentAgent", "task_id": "EC_029-payment-e4a790ff", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_029", "step": "DeliveryAgent", "task_id": "EC_029-delivery-0e459952", "status": "completed", "duration_ms": 0.041}
+{"case_id": "EC_029", "step": "PolicyAgent", "task_id": "EC_029-policy-fc1ad7f4", "status": "completed", "duration_ms": 2013.388, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_029", "step": "VerifierAgent", "task_id": "EC_029-verifier-ba7e07c8", "status": "completed", "duration_ms": 0.013}
+{"case_id": "EC_030", "step": "OrderAgent", "task_id": "EC_030-order-ea47d343", "status": "completed", "duration_ms": 0.048}
+{"case_id": "EC_030", "step": "PaymentAgent", "task_id": "EC_030-payment-e3c4bced", "status": "completed", "duration_ms": 0.035}
+{"case_id": "EC_030", "step": "DeliveryAgent", "task_id": "EC_030-delivery-387b639b", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_030", "step": "PolicyAgent", "task_id": "EC_030-policy-3dcf28ed", "status": "completed", "duration_ms": 1553.352, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_030", "step": "VerifierAgent", "task_id": "EC_030-verifier-a695b426", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_031", "step": "OrderAgent", "task_id": "EC_031-order-48afc3d7", "status": "completed", "duration_ms": 0.119}
+{"case_id": "EC_031", "step": "PaymentAgent", "task_id": "EC_031-payment-23b09ef6", "status": "completed", "duration_ms": 0.064}
+{"case_id": "EC_031", "step": "DeliveryAgent", "task_id": "EC_031-delivery-efbc608b", "status": "completed", "duration_ms": 0.063}
+{"case_id": "EC_031", "step": "PolicyAgent", "task_id": "EC_031-policy-9e4a1f95", "status": "completed", "duration_ms": 1589.14, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_031", "step": "VerifierAgent", "task_id": "EC_031-verifier-d5a890f6", "status": "completed", "duration_ms": 0.034}
+{"case_id": "EC_032", "step": "OrderAgent", "task_id": "EC_032-order-1ab3677a", "status": "completed", "duration_ms": 0.082}
+{"case_id": "EC_032", "step": "PaymentAgent", "task_id": "EC_032-payment-1cb73f95", "status": "completed", "duration_ms": 0.047}
+{"case_id": "EC_032", "step": "DeliveryAgent", "task_id": "EC_032-delivery-77ffd198", "status": "completed", "duration_ms": 0.029}
+{"case_id": "EC_032", "step": "PolicyAgent", "task_id": "EC_032-policy-7c7a21a8", "status": "completed", "duration_ms": 2600.403, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_032", "step": "VerifierAgent", "task_id": "EC_032-verifier-515ad4ab", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_033", "step": "OrderAgent", "task_id": "EC_033-order-d7e1f213", "status": "completed", "duration_ms": 0.032}
+{"case_id": "EC_033", "step": "PaymentAgent", "task_id": "EC_033-payment-c74ddcb7", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_033", "step": "DeliveryAgent", "task_id": "EC_033-delivery-4c628961", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_033", "step": "PolicyAgent", "task_id": "EC_033-policy-6f0334bc", "status": "completed", "duration_ms": 1703.292, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_033", "step": "VerifierAgent", "task_id": "EC_033-verifier-6834cc22", "status": "completed", "duration_ms": 0.02}
+{"case_id": "EC_034", "step": "OrderAgent", "task_id": "EC_034-order-85eb81a7", "status": "completed", "duration_ms": 0.059}
+{"case_id": "EC_034", "step": "PaymentAgent", "task_id": "EC_034-payment-b38e9604", "status": "completed", "duration_ms": 0.03}
+{"case_id": "EC_034", "step": "DeliveryAgent", "task_id": "EC_034-delivery-aba9770b", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_034", "step": "PolicyAgent", "task_id": "EC_034-policy-f5818a74", "status": "completed", "duration_ms": 2504.175, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_034", "step": "VerifierAgent", "task_id": "EC_034-verifier-471d88c2", "status": "completed", "duration_ms": 0.045}
+{"case_id": "EC_035", "step": "OrderAgent", "task_id": "EC_035-order-80afc133", "status": "completed", "duration_ms": 0.188}
+{"case_id": "EC_035", "step": "PaymentAgent", "task_id": "EC_035-payment-e7f51233", "status": "completed", "duration_ms": 0.071}
+{"case_id": "EC_035", "step": "DeliveryAgent", "task_id": "EC_035-delivery-44440ca6", "status": "completed", "duration_ms": 0.039}
+{"case_id": "EC_035", "step": "PolicyAgent", "task_id": "EC_035-policy-628bcf57", "status": "completed", "duration_ms": 1647.04, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_035", "step": "VerifierAgent", "task_id": "EC_035-verifier-a2b3c383", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_036", "step": "OrderAgent", "task_id": "EC_036-order-98b699ca", "status": "completed", "duration_ms": 0.033}
+{"case_id": "EC_036", "step": "PaymentAgent", "task_id": "EC_036-payment-810635aa", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_036", "step": "DeliveryAgent", "task_id": "EC_036-delivery-40073e8b", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_036", "step": "PolicyAgent", "task_id": "EC_036-policy-e4abcffb", "status": "completed", "duration_ms": 1303.934, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_036", "step": "VerifierAgent", "task_id": "EC_036-verifier-5b93502b", "status": "completed", "duration_ms": 0.012}
+{"case_id": "EC_037", "step": "OrderAgent", "task_id": "EC_037-order-6936dace", "status": "completed", "duration_ms": 0.045}
+{"case_id": "EC_037", "step": "PaymentAgent", "task_id": "EC_037-payment-8b59f2b4", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_037", "step": "DeliveryAgent", "task_id": "EC_037-delivery-01fa4e15", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_037", "step": "PolicyAgent", "task_id": "EC_037-policy-60cd3031", "status": "completed", "duration_ms": 1589.114, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_037", "step": "VerifierAgent", "task_id": "EC_037-verifier-82e9ba9f", "status": "completed", "duration_ms": 0.019}
+{"case_id": "EC_038", "step": "OrderAgent", "task_id": "EC_038-order-09265197", "status": "completed", "duration_ms": 0.062}
+{"case_id": "EC_038", "step": "PaymentAgent", "task_id": "EC_038-payment-c5c2af79", "status": "completed", "duration_ms": 0.044}
+{"case_id": "EC_038", "step": "DeliveryAgent", "task_id": "EC_038-delivery-88594664", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_038", "step": "PolicyAgent", "task_id": "EC_038-policy-2a76860e", "status": "completed", "duration_ms": 1391.306, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_038", "step": "VerifierAgent", "task_id": "EC_038-verifier-94ba98f3", "status": "completed", "duration_ms": 0.01}
+{"case_id": "EC_039", "step": "OrderAgent", "task_id": "EC_039-order-c08f26ca", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_039", "step": "PaymentAgent", "task_id": "EC_039-payment-0badc88e", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_039", "step": "DeliveryAgent", "task_id": "EC_039-delivery-c488f886", "status": "completed", "duration_ms": 0.012}
+{"case_id": "EC_039", "step": "PolicyAgent", "task_id": "EC_039-policy-a24f1338", "status": "completed", "duration_ms": 1239.104, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_039", "step": "VerifierAgent", "task_id": "EC_039-verifier-31af5ba4", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_040", "step": "OrderAgent", "task_id": "EC_040-order-9b24c944", "status": "completed", "duration_ms": 0.036}
+{"case_id": "EC_040", "step": "PaymentAgent", "task_id": "EC_040-payment-8c26869a", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_040", "step": "DeliveryAgent", "task_id": "EC_040-delivery-640eab1f", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_040", "step": "PolicyAgent", "task_id": "EC_040-policy-1ac2b6ba", "status": "completed", "duration_ms": 2043.817, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_040", "step": "VerifierAgent", "task_id": "EC_040-verifier-721ecb74", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_041", "step": "OrderAgent", "task_id": "EC_041-order-2ce5f355", "status": "completed", "duration_ms": 0.045}
+{"case_id": "EC_041", "step": "PaymentAgent", "task_id": "EC_041-payment-174a2dc5", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_041", "step": "DeliveryAgent", "task_id": "EC_041-delivery-b9c1d79c", "status": "completed", "duration_ms": 0.011}
+{"case_id": "EC_041", "step": "PolicyAgent", "task_id": "EC_041-policy-ac78ce1d", "status": "completed", "duration_ms": 2158.136, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_041", "step": "VerifierAgent", "task_id": "EC_041-verifier-064a5570", "status": "completed", "duration_ms": 0.024}
+{"case_id": "EC_042", "step": "OrderAgent", "task_id": "EC_042-order-7d59f46f", "status": "completed", "duration_ms": 0.078}
+{"case_id": "EC_042", "step": "PaymentAgent", "task_id": "EC_042-payment-40d77036", "status": "completed", "duration_ms": 0.048}
+{"case_id": "EC_042", "step": "DeliveryAgent", "task_id": "EC_042-delivery-033b731e", "status": "completed", "duration_ms": 0.023}
+{"case_id": "EC_042", "step": "PolicyAgent", "task_id": "EC_042-policy-e0f5ee9a", "status": "completed", "duration_ms": 1371.718, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_042", "step": "VerifierAgent", "task_id": "EC_042-verifier-92a451d5", "status": "completed", "duration_ms": 0.008}
+{"case_id": "EC_043", "step": "OrderAgent", "task_id": "EC_043-order-c5115cc2", "status": "completed", "duration_ms": 0.037}
+{"case_id": "EC_043", "step": "PaymentAgent", "task_id": "EC_043-payment-a8ed11f6", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_043", "step": "DeliveryAgent", "task_id": "EC_043-delivery-2ef0277f", "status": "completed", "duration_ms": 0.017}
+{"case_id": "EC_043", "step": "PolicyAgent", "task_id": "EC_043-policy-0e8b48b7", "status": "completed", "duration_ms": 1388.503, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_043", "step": "VerifierAgent", "task_id": "EC_043-verifier-8ed878f4", "status": "completed", "duration_ms": 0.041}
+{"case_id": "EC_044", "step": "OrderAgent", "task_id": "EC_044-order-48630969", "status": "completed", "duration_ms": 0.207}
+{"case_id": "EC_044", "step": "PaymentAgent", "task_id": "EC_044-payment-6a8367ad", "status": "completed", "duration_ms": 0.178}
+{"case_id": "EC_044", "step": "DeliveryAgent", "task_id": "EC_044-delivery-3fda4f4b", "status": "completed", "duration_ms": 0.107}
+{"case_id": "EC_044", "step": "PolicyAgent", "task_id": "EC_044-policy-3bc77d92", "status": "completed", "duration_ms": 1520.231, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_044", "step": "VerifierAgent", "task_id": "EC_044-verifier-f2a0e211", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_045", "step": "OrderAgent", "task_id": "EC_045-order-3cdf7891", "status": "completed", "duration_ms": 0.078}
+{"case_id": "EC_045", "step": "PaymentAgent", "task_id": "EC_045-payment-c659ed2e", "status": "completed", "duration_ms": 0.036}
+{"case_id": "EC_045", "step": "DeliveryAgent", "task_id": "EC_045-delivery-ac6175ab", "status": "completed", "duration_ms": 0.031}
+{"case_id": "EC_045", "step": "PolicyAgent", "task_id": "EC_045-policy-98ad9131", "status": "completed", "duration_ms": 1312.75, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_045", "step": "VerifierAgent", "task_id": "EC_045-verifier-c730a436", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_046", "step": "OrderAgent", "task_id": "EC_046-order-cee9dfa5", "status": "completed", "duration_ms": 0.062}
+{"case_id": "EC_046", "step": "PaymentAgent", "task_id": "EC_046-payment-8895721d", "status": "completed", "duration_ms": 0.029}
+{"case_id": "EC_046", "step": "DeliveryAgent", "task_id": "EC_046-delivery-1707236b", "status": "completed", "duration_ms": 0.013}
+{"case_id": "EC_046", "step": "PolicyAgent", "task_id": "EC_046-policy-bffe0964", "status": "completed", "duration_ms": 1390.304, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_046", "step": "VerifierAgent", "task_id": "EC_046-verifier-dd60b9e9", "status": "completed", "duration_ms": 0.016}
+{"case_id": "EC_047", "step": "OrderAgent", "task_id": "EC_047-order-c42fecdc", "status": "completed", "duration_ms": 0.083}
+{"case_id": "EC_047", "step": "PaymentAgent", "task_id": "EC_047-payment-495aae34", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_047", "step": "DeliveryAgent", "task_id": "EC_047-delivery-c0f83054", "status": "completed", "duration_ms": 0.034}
+{"case_id": "EC_047", "step": "PolicyAgent", "task_id": "EC_047-policy-91869644", "status": "completed", "duration_ms": 3062.784, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_047", "step": "VerifierAgent", "task_id": "EC_047-verifier-0d05e353", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_048", "step": "OrderAgent", "task_id": "EC_048-order-582262e1", "status": "completed", "duration_ms": 0.084}
+{"case_id": "EC_048", "step": "PaymentAgent", "task_id": "EC_048-payment-40ddaeec", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_048", "step": "DeliveryAgent", "task_id": "EC_048-delivery-952c2d9f", "status": "completed", "duration_ms": 0.022}
+{"case_id": "EC_048", "step": "PolicyAgent", "task_id": "EC_048-policy-2d1132a5", "status": "completed", "duration_ms": 1362.041, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_048", "step": "VerifierAgent", "task_id": "EC_048-verifier-06cb1fb0", "status": "completed", "duration_ms": 0.009}
+{"case_id": "EC_049", "step": "OrderAgent", "task_id": "EC_049-order-98252291", "status": "completed", "duration_ms": 0.038}
+{"case_id": "EC_049", "step": "PaymentAgent", "task_id": "EC_049-payment-bcfcb4a6", "status": "completed", "duration_ms": 0.021}
+{"case_id": "EC_049", "step": "DeliveryAgent", "task_id": "EC_049-delivery-355204c7", "status": "completed", "duration_ms": 0.015}
+{"case_id": "EC_049", "step": "PolicyAgent", "task_id": "EC_049-policy-aba46c35", "status": "completed", "duration_ms": 2168.328, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_049", "step": "VerifierAgent", "task_id": "EC_049-verifier-cd7be922", "status": "completed", "duration_ms": 0.04}
+{"case_id": "EC_050", "step": "OrderAgent", "task_id": "EC_050-order-27047604", "status": "completed", "duration_ms": 0.112}
+{"case_id": "EC_050", "step": "PaymentAgent", "task_id": "EC_050-payment-58880936", "status": "completed", "duration_ms": 0.072}
+{"case_id": "EC_050", "step": "DeliveryAgent", "task_id": "EC_050-delivery-0fcfc694", "status": "completed", "duration_ms": 0.05}
+{"case_id": "EC_050", "step": "PolicyAgent", "task_id": "EC_050-policy-58eea1fd", "status": "completed", "duration_ms": 1198.607, "model": "gpt-4o-mini", "model_agreed_with_policy_engine": true}
+{"case_id": "EC_050", "step": "VerifierAgent", "task_id": "EC_050-verifier-ad787449", "status": "completed", "duration_ms": 0.01}
